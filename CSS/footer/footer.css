@@ -1,0 +1,17 @@
+@media (max-width: 992px) {
+  footer .col-lg-6, footer .nav-footer {
+    text-align: center !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  footer .nav-footer {
+    margin-right: auto !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: left !important;
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AACI,aADS,AACR,MAAM,CAAC;EACJ,KAAK,EATG,OAAO,CASO,UAAU;EAChC,UAAU,EAAE,GAAG,CAAC,KAAK,CAVb,OAAO,CAUsB,UAAU;CAClD;;AAGL,AAAA,oBAAoB,CAAC;EACjB,KAAK,EAfO,OAAO,CAeG,UAAU;EAChC,UAAU,EAAE,GAAG,CAAC,KAAK,CAhBT,OAAO,CAgBkB,UAAU;CAClD;;AAED,UAAU,CAAV,aAAU;EACN,EAAE;IACE,OAAO,EAAE,CAAC;;EAGd,IAAI;IACA,OAAO,EAAE,CAAC",
+    "sources": [
+        "course-single-v2.scss"
+    ],
+    "names": [],
+    "file": "course-single-v2.css"
+}

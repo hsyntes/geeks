@@ -1,0 +1,45 @@
+#collapse-navbar-side a.nav-link {
+  -webkit-transition: 0.2s all ease-out !important;
+  transition: 0.2s all ease-out !important;
+}
+
+#collapse-navbar-side a.nav-link i {
+  -webkit-transition: 0.2s all ease-out !important;
+  transition: 0.2s all ease-out !important;
+}
+
+#collapse-navbar-side a.nav-link:hover {
+  background-color: #e3dcfe !important;
+}
+
+#collapse-navbar-side a.nav-link:hover i {
+  color: #754ffe !important;
+}
+
+.list-group .list-group-item:hover {
+  background-color: #fff !important;
+}
+
+@media (max-width: 992px) {
+  header .card {
+    border-radius: 0 !important;
+    border-radius: 10px 10px 0px 0px !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    border: none !important;
+    -webkit-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.1) !important;
+  }
+  main nav #collapse-navbar-side a.nav-link {
+    border: none !important;
+  }
+  main .navbar {
+    border-top: 1px solid rgba(124, 105, 105, 0.2);
+    border-radius: 0px 0px 10px 10px !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+/*# sourceMappingURL=students-notifications.css.map */

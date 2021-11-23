@@ -1,0 +1,2174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../CSS/body/body.css">
+    <link rel="stylesheet" href="../../CSS/nav/nav.css">
+    <link rel="stylesheet" href="../../CSS/accordion/accordion.css">
+    <link rel="stylesheet" href="../../CSS/footer/footer.css">
+    <!-- <link rel="stylesheet" href="../../CSS/fragment/fragment.css"> -->
+    <link rel="stylesheet" href="../../CSS/course-single-v2/course-single-v2.css">
+    <link rel="icon" href="../../img/title/title-icon.svg">
+    <title>Course Signle | Geeks - Bootstrap 5 Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light align-items-center py-3 shadow">
+        <a href="../index/index.html" class="navbar-brand">
+            <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/brand/logo/logo.svg" alt="">
+        </a>
+        <div class="d-lg-none ml-auto">
+            <button class="btn btn-outline-primary rounded-circle btn-bell" data-toggle="dropdown">
+                <i class="fa fa-bell"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow" style="width: 100% !important;">
+                <div class="dropdown-bell-header d-flex align-items-center py-2 px-3">
+                    <h6 class="text-primary fw-500 m-0 p-0">Notifications</h6>
+                    <a href="#" class="text-primary ml-auto">
+                        <i class="fa fa-cog"></i>
+                    </a>
+                </div>
+                <div class="dropdown-bell-body py-2">
+                    <a href="#" class="d-flex align-items-start border-top border-bottom p-3">
+                        <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-2.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted fs-12 p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-3.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-4.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-5.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-mutedp-0 fs-12 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-6.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-7.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-8.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-9.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-10.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="dropdown-bell-footer py-0 px-3">
+                    <a href="#" class="d-block fw-500 m-0 p-0 py-2 text-primary">See
+                        All Notifications</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-lg-none mx-2">
+            <button class="btn p-0 btn-user" data-toggle="dropdown">
+                <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="38" alt="">
+                <i class="fa fa-circle text-success fa-xs"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow user-dropdown" style="width: 100%;">
+                <div class="dropdown-user-header d-flex align-items-center py-2 px-3">
+                    <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                    <div class="dropdown-user-header-text ml-3">
+                        <h6 class="fw-500 m-0 p-0">Annette Black</h6>
+                        <p class="text-muted fs-14 m-0 p-0">annette@geeksui.com</p>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-user-body">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item d-flex align-items-center py-2 px-3" data-toggle="dropdown"><i
+                                class="far fa-circle"></i>&nbsp;Status
+                            <span class="ml-auto text-muted">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown-menu rounded shadow" style="width: 100%;">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-success fa-sm"></i>&nbsp;Online
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-dark fa-sm"></i>&nbsp;Offline
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-warning fa-sm"></i>&nbsp;Warning
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-danger fa-sm"></i>&nbsp;Busy
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="far fa-user"></i>&nbsp;Profile</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i
+                            class="far fa-star"></i>&nbsp;Subscription</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="fas fa-cog"></i>&nbsp;Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item py-2 px-3"><i class="fas fa-power-off"></i>&nbsp;Sign Out</a>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-primary d-lg-none btn-bar" data-toggle="collapse"
+            data-target="#collapse-navbar-menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-navbar-menu">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item dropdown">
+                    <a href="#" id="browse"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Browse&nbsp;<i
+                            class="fa fa-angle-down text-muted ml-auto"></i></a>
+                    <div id="browse-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Web Development&nbsp;
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Bootstrap</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">React</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">GraphQl</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Gatsby</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Grunt</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Svelte</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Meteor</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">HTML5</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Angular</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Design
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Graphic
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Illustrator</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">UX / UI
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Figma Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Adobe XD</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Sketch</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Icon Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Photoshop</a>
+                            </div>
+                        </div>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Mobile App</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">IT Software</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Marketing</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Music</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Life Style</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Business</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Photography</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="landings"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Landings&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="#landings-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">LANDINGS</h6>
+                        <a href="../landing-course/landing-courses.html" class="dropdown-item">Courses</a>
+                        <a href="../lead-course/lead-course.html" class="dropdown-item">Lead Course</a>
+                        <a href="../request-access/request-access.html" class="dropdown-item">Request Access</a>
+                        <a href="../SaaS/saas.html" class="dropdown-item">
+                            SaaS
+                            <span class="badge badge-danger py-1">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="pages"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Pages&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="pages-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center ">
+                                Courses
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-single/course-single.html" class="dropdown-item">Course Signle</a>
+                                <a href="../course-single-v2/course-single-v2.html" class="dropdown-item">Course Signle
+                                    v2</a>
+                                <a href="../course-resume/course-resume.html" class="dropdown-item">Course Resume</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Course
+                                    Category</a>
+                                <a href="../course-checkout/course-checkout.html" class="dropdown-item">Course
+                                    Checkout</a>
+                                <a href="../course-list-grid/course-list-grid.html" class="dropdown-item">Course
+                                    List/Grid</a>
+                                <a href="#" class="dropdown-item">Add New Course</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Paths
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../browse-path/browse-path.html" class="dropdown-item">Browse Path</a>
+                                <a href="../path-single/path-single.html" class="dropdown-item">Path Single</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Blog
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../listing/listing.html" class="dropdown-item">Listing</a>
+                                <a href="../article/article.html" class="dropdown-item">Article</a>
+                                <a href="../blog-category/blog-category.html" class="dropdown-item">Category</a>
+                                <a href="../sidebar/sidebar.html" class="dropdown-item">Sidebar</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Career&nbsp;
+                                <span class="badge badge-danger">New</span>
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../overview/overview.html" class="dropdown-item">Overview</a>
+                                <a href="../career-list/career-list.html" class="dropdown-item">Listing</a>
+                                <a href="../opening/opening.html" class="dropdown-item">Opening</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Specialty
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../coming-soon/coming-soon.html" class="dropdown-item">Coming Soon</a>
+                                <a href="../error-404/error-404.html" class="dropdown-item">Error 404</a>
+                                <a href="../maintanence/maintanence.html" class="dropdown-item">Maintenance Mode</a>
+                                <a href="../terms-condition/terms-condition.html" class="dropdown-item">Terms &
+                                    Conditions</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../about/about.html" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Help Center</a>
+                        <a href="../pricing/pricing.html" class="dropdown-item">Pricing</a>
+                        <a href="../compare-plan/compare-plan.html" class="dropdown-item">
+                            Compare Plan
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                        <a href="../contact/contact.html" class="dropdown-item">
+                            Contact
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a id="accounts" href="#"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Accounts&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="accounts-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">ACCOUNTS</h6>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Instructor
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="instructor-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">INSTRUCTOR</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Instructor dashboard for manage courses and earning.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../instructor-dashboard/instructor-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../instructor-profile/instructor-profile.html"
+                                    class="dropdown-item">Profile</a>
+                                <a href="../instructor-courses/instructor-courses.html" class="dropdown-item">My
+                                    Courses</a>
+                                <a href="../instructor-orders/instructor-orders.html" class="dropdown-item">Orders</a>
+                                <a href="../instructor-reviews/instructor-reviews.html"
+                                    class="dropdown-item">Reviews</a>
+                                <a href="../instructor-students/instructor-students.html"
+                                    class="dropdown-item">Students</a>
+                                <a href="../instructor-payout/instructor-payout.html" class="dropdown-item">Payouts</a>
+                                <a href="../instructor-earning/instructor-earning.html"
+                                    class="dropdown-item">Earning</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Students
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="students-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">STUDENTS</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Students dashboard to manage your courses and subscriptions.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../students-subscriptions/students-subscriptions.html"
+                                    class="dropdown-item">Subscriptions</a>
+                                <a href="../students-payment/students-payment.html" class="dropdown-item">Payments</a>
+                                <a href="../students-billing-info/students-billing-info.html"
+                                    class="dropdown-item">Billing Info</a>
+                                <a href="../students-invoice/students-invoice.html" class="dropdown-item">Invoice</a>
+                                <a href="../students-invoice-details/students-invoice-details.html"
+                                    class="dropdown-item">Invoice Details</a>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Bookmarked</a>
+                                <a href="../students-dashboard/students-dashboard.html" class="dropdown-item">My
+                                    Path</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Admin
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="admin-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">MASTER ADMIN</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Master admin dashboard to manage courses, user, site setting , and work with amazing
+                                    apps.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary m-2">Go to Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../sign-in/sign-in.html" class="dropdown-item">Sign In</a>
+                        <a href="../sign-up/sign-up.html" class="dropdown-item">Sign Up</a>
+                        <a href="../forget-password/forget-password.html" class="dropdown-item">Forgot Password</a>
+                        <a href="../students-edit-profile/students-edit-profile.html" class="dropdown-item">Edit
+                            Profile</a>
+                        <a href="../students-security/students-security.html" class="dropdown-item">Security</a>
+                        <a href="../students-social-profiles/students-social-profiles.html" class="dropdown-item">Social
+                            Profiles</a>
+                        <a href="../students-notifications/students-notifications.html"
+                            class="dropdown-item">Notifications</a>
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="dropdown-item">Privacy Settings</a>
+                        <a href="../students-delete-profile/students-delete-profile.html" class="dropdown-item">Delete
+                            Profile</a>
+                        <a href="../students-linked-accounts/students-linked-accounts.html" class="dropdown-item">Linked
+                            Accounts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="ellipsis" class="nav-link d-flex align-items-center dropdown-link text-dark"><i
+                            class="fa fa-ellipsis-h font-weight-normal"></i>&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="ellipsis-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <a href="../terms-condition/terms-condition.html"
+                            class="dropdown-item d-flex align-items-center py-3">
+                            <i class="far fa-file-alt fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Documentations</h6>
+                                <p class="text-muted p-0 m-0">Browse the all documentation</p>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item d-flex align-items-center py-3">
+                            <i class="fas fa-code-branch fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Changelog <span class="text-primary">v2.2.0</span>
+                                </h6>
+                                <p class="text-muted p-0 m-0">See what's new</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item mt-3 mt-lg-0">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary px-3">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <input type="text" class="form-control border-primary" placeholder="Search Courses"
+                            style="height: 50px !important;">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown dropleft d-none d-lg-block">
+            <button class="btn btn-outline-primary rounded-circle btn-bell" data-toggle="dropdown">
+                <i class="fa fa-bell"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow bell-dropdown mt-5" style="width: 350px !important;">
+                <div class="dropdown-bell-header d-flex align-items-center py-2 px-3">
+                    <h6 class="text-primary fw-500 m-0 p-0">Notifications</h6>
+                    <a href="#" class="text-primary ml-auto">
+                        <i class="fa fa-cog"></i>
+                    </a>
+                </div>
+                <div class="dropdown-bell-body py-2">
+                    <a href="#" class="d-flex align-items-start border-top border-bottom p-3">
+                        <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-2.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-3.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-4.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-5.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-6.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-7.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-5-- p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-8.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class=" text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-9.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-10.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="dropdown-bell-footer py-0 px-3">
+                    <a href="#" class="d-block fw-500 m-0 p-0 py-2 text-primary">See
+                        All Notifications</a>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown dropleft d-none d-lg-block ml-2">
+            <button class="btn p-0 btn-user" data-toggle="dropdown">
+                <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="38" alt="">
+                <i class="fa fa-circle text-success fa-xs"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow mt-5 user-dropdown">
+                <div class="dropdown-user-header d-flex align-items-center py-2 px-3">
+                    <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                    <div class="dropdown-user-header-text ml-3">
+                        <h6 class="fw-500 m-0 p-0">Annette Black</h6>
+                        <p class="text-muted fs-14 m-0 p-0">annette@geeksui.com</p>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-user-body">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item d-flex align-items-center py-2 px-3" data-toggle="dropdown"><i
+                                class="far fa-circle"></i>&nbsp;Status
+                            <span class="ml-auto text-muted">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown-menu rounded shadow">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-success fa-sm"></i>&nbsp;Online
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-dark fa-sm"></i>&nbsp;Offline
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-warning fa-sm"></i>&nbsp;Warning
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-danger fa-sm"></i>&nbsp;Busy
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="far fa-user"></i>&nbsp;Profile</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i
+                            class="far fa-star"></i>&nbsp;Subscription</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="fas fa-cog"></i>&nbsp;Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item py-2 px-3"><i class="fas fa-power-off"></i>&nbsp;Sign Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <iframe width="100%" height="540" class="rounded my-5" src="https://www.youtube.com/embed/PkZNo7MFNFg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <div class="card rounded border shadow p-2">
+                <div class="card-header bg-light border-0">
+                    <div class="d-flex align-items-center">
+                        <h2 class="text-dark fw-600">Getting Started With JavaScript</h2>
+                        <i class="far fa-bookmark fa-lg ml-auto" style="cursor: pointer;"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="d-flex align-items-center fs-14">
+                            <span>
+                                <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                            </span>
+                            <span class="text-dark ml-1">
+                                (140)
+                            </span>
+                        </span>
+                        <span class="d-flex align-items-center fs-14 ml-3">
+                            <span>
+                                <i class="fa fa-signal fa-xs text-primary"></i>
+                            </span>
+                            <span class="text-dark ml-1">
+                                Intermediate
+                            </span>
+                        </span>
+                        <span class="d-flex align-items-center fs-14 ml-3">
+                            <span>
+                                <i class="fa fa-users fa-xs text-primary"></i>
+                            </span>
+                            <span class="text-dark ml-1">
+                                Enrolled
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-start">
+                        <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="42">
+                        <span class="ml-2">
+                            <h6 class="text-dark fw-500 m-0 p-0">Kathryn Jones</h6>
+                            <p class="text-muted fs-12 m-0 p-0">
+                                @kathrynjones
+                            </p>
+                        </span>
+                        <span class="ml-auto">
+                            <a href="#" class="btn btn-light text-muted"
+                                style="font-size: 12px !important; font-weight: 600 !important;">Follow</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="card-footer bg-light border-0">
+                    <ul class="nav border-top">
+                        <li class="nav-item mr-4">
+                            <button id="btn-description"
+                                class="btn btn-fragment btn-fragment-active text-muted px-0 pt-3 rounded-0">
+                                Description
+                            </button>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <button id="btn-reviews" class="btn btn-fragment text-muted px-0 pt-3 rounded-0">
+                                Reviews
+                            </button>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <button id="btn-transcript" class="btn btn-fragment text-muted px-0 pt-3 rounded-0">
+                                Transcript
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button id="btn-faq" class="btn btn-fragment text-muted px-0 pt-3 rounded-0">
+                                FAQ
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card rounded shadow my-5">
+                <div class="card-body">
+                    <div id="description" class="d-block">
+                        <h5 class="text-dark fw-500">Course Descriptions</h5>
+                        <p class="text-muted fs-14">
+                            If you’re learning to program for the first time, or if you’re coming from a
+                            different language, this course, JavaScript: Getting Started, will give you the
+                            basics for coding in JavaScript. First, you'll discover the types of applications
+                            that can be built with JavaScript, and the platforms they’ll run on.
+                        </p>
+                        <p class="text-muted fs-14">
+                            Next, you’ll explore the basics of the language, giving plenty of examples. Lastly,
+                            you’ll put your JavaScript knowledge to work and modify a modern, responsive web
+                            page. When you’re finished with this course, you’ll have the skills and knowledge in
+                            JavaScript to create simple programs, create simple web applications, and modify web
+                            pages.
+                        </p>
+                        <h6 class="text-dark fw-500">What you'll learn</h6>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div id="check-1" class="d-flex mb-3">
+                                    <span>
+                                        <i class="far fa-check-circle text-success"></i>
+                                    </span>
+                                    <span class="text-muted fs-14 ml-2">
+                                        Recognize the importance of understanding your objectives when
+                                        addressing an audience.
+                                    </span>
+                                </div>
+                                <div id="check-2" class="d-flex mb-3">
+                                    <span>
+                                        <i class="far fa-check-circle text-success"></i>
+                                    </span>
+                                    <span class="text-muted fs-14 ml-2">
+                                        Identify the fundaments of composing a successful close.
+                                    </span>
+                                </div>
+                                <div id="check-3" class="d-flex mb-3">
+                                    <span>
+                                        <i class="far fa-check-circle text-success"></i>
+                                    </span>
+                                    <span class="text-muted fs-14 ml-2">
+                                        Explore how to connect with your audience through crafting compelling
+                                        stories.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div id="check-4" class="d-flex mb-3">
+                                    <span>
+                                        <i class="far fa-check-circle text-success"></i>
+                                    </span>
+                                    <span class="text-muted fs-14 ml-2">
+                                        Examine ways to connect with your audience by personalizing your
+                                        content.
+                                    </span>
+                                </div>
+                                <div id="check-5" class="d-flex mb-3">
+                                    <span>
+                                        <i class="far fa-check-circle text-success"></i>
+                                    </span>
+                                    <span class="text-muted fs-14 ml-2">
+                                        Break down the best ways to exude executive presence.
+                                    </span>
+                                </div>
+                                <div id="check-6" class="d-flex">
+                                    <span>
+                                        <i class="far fa-check-circle text-success"></i>
+                                    </span>
+                                    <span class="text-muted fs-14 ml-2">
+                                        Explore how to communicate the unknown in an impromptu communication.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reviews" class="d-none">
+                        <div class="d-flex align-items-center mb-4">
+                            <h5 class="text-dark fw-500">Reviews</h5>
+                            <div class="input-group w-50 ml-auto">
+                                <div class="input-group-prepend">
+                                    <button class="btn btn-primary">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Search Review">
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start my-4">
+                            <img src="../../img/users/avatar-2.jpg" class="rounded-circle" width="56">
+                            <div class="ml-3">
+                                <div class="d-flex">
+                                    <h6 class="text-dark fw-500">Max Hawkins</h6>
+                                    <span class="text-muted fs-12 ml-2">2 Days ago</span>
+                                </div>
+                                <p class="fs-12">
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                </p>
+                                <p class="text-muted fs-14">
+                                    Lectures were at a really good pace and I never felt lost. The instructor
+                                    was well informed and allowed me to learn and navigate Figma easily.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-muted fs-14 mr-3">
+                                        Was this review helpful?
+                                    </span>
+                                    <a href="#" class="btn btn-primary mr-1" style="font-size: 12px !important;">Yes</a>
+                                    <a href="#" class="btn btn-light" style="font-size: 12px !important;">No</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex align-items-start my-4">
+                            <img src="../../img/users/avatar-3.jpg" class="rounded-circle" width="56">
+                            <div class="ml-3">
+                                <div class="d-flex">
+                                    <h6 class="text-dark fw-500">Arthur Williamson</h6>
+                                    <span class="text-muted fs-12 ml-2">3 Days ago</span>
+                                </div>
+                                <p class="fs-12">
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                </p>
+                                <p class="text-muted fs-14">
+                                    Its pretty good. Just a reminder that there are also students with Windows,
+                                    meaning Figma its a bit different of yours. Thank you!
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-muted fs-14 mr-3">
+                                        Was this review helpful?
+                                    </span>
+                                    <a href="#" class="btn btn-primary mr-1" style="font-size: 12px !important;">Yes</a>
+                                    <a href="#" class="btn btn-light" style="font-size: 12px !important;">No</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex align-items-start my-4">
+                            <img src="../../img/users/avatar-4.jpg" class="rounded-circle" width="56">
+                            <div class="ml-3">
+                                <div class="d-flex">
+                                    <h6 class="text-dark fw-500">Claire Jones</h6>
+                                    <span class="text-muted fs-12 ml-2">4 Days ago</span>
+                                </div>
+                                <p class="fs-12">
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                </p>
+                                <p class="text-muted fs-14">
+                                    Great course for learning Figma, the only bad detail would be that some
+                                    icons are not included in the assets. But 90% of the icons needed are
+                                    included, and the voice of instructor was very clear and easy to understood.
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-muted fs-14 mr-3">
+                                        Was this review helpful?
+                                    </span>
+                                    <a href="#" class="btn btn-primary mr-1" style="font-size: 12px !important;">Yes</a>
+                                    <a href="#" class="btn btn-light" style="font-size: 12px !important;">No</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex align-items-start my-4">
+                            <img src="../../img/users/avatar-5.jpg" class="rounded-circle" width="56">
+                            <div class="ml-3">
+                                <div class="d-flex">
+                                    <h6 class="text-dark fw-500">Bessie Pena</h6>
+                                    <span class="text-muted fs-12 ml-2">5 Days ago</span>
+                                </div>
+                                <p class="fs-12">
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                    <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                </p>
+                                <p class="text-muted fs-14">
+                                    I have really enjoyed this class and learned a lot, found it bery inspring
+                                    and helpful, thank you!
+                                </p>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-muted fs-14 mr-3">
+                                        Was this review helpful?
+                                    </span>
+                                    <a href="#" class="btn btn-primary mr-1" style="font-size: 12px !important;">Yes</a>
+                                    <a href="#" class="btn btn-light" style="font-size: 12px !important;">No</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="transcript" class="d-none">
+                        <h5 class="text-dark fw-500 mb-4">
+                            Transcript from the "Introduction" Lesson
+                        </h5>
+                        <h6 class="text-dark fw-500">
+                            Course Overview <span class="text-muted">[00:00:00]</span>
+                        </h6>
+                        <p class="text-muted fs-14">
+                            My name is John Deo and I work as human duct tape at Gatsby, that means that I do a
+                            lot of different things. Everything from dev roll to writing content to writing
+                            code. And I used to work as an architect at IBM. I live in Portland, Oregon.
+                        </p>
+                        <h6 class="text-dark fw-500">
+                            Introduction <span class="text-muted">[00:00:16]</span>
+                        </h6>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                        <h6 class="text-dark fw-500">
+                            Why Take This Course? <span class="text-muted">[00:00:37]</span>
+                        </h6>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                        <h6 class="text-dark fw-500">
+                            A Look at the Demo Application <span class="text-muted">[00:00:54]</span>
+                        </h6>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                        <h6 class="text-dark fw-500">
+                            Summary <span class="text-muted">[00:01:31]</span>
+                        </h6>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                    </div>
+                    <div id="faq" class="d-none">
+                        <h5 class="text-dark fw-500 mb-4">
+                            Course - Frequently Asked Questions
+                        </h5>
+                        <h6 class="text-dark fw-500">
+                            How this course help me to design layout?
+                        </h6>
+                        <p class="text-muted fs-14">
+                            My name is Jason Woo and I work as human duct tape at Gatsby, that means that I do a
+                            lot of different things. Everything from dev roll to writing content to writing
+                            code. And I used to work as an architect at IBM. I live in Portland, Oregon.
+                        </p>
+                        <h6 class="text-dark fw-500">
+                            What is important of this course?
+                        </h6>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                        <h6 class="text-dark fw-500">
+                            Why Take This Course?
+                        </h6>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                        <h6 class="text-dark fw-500">
+                            Is able to create application after this course?
+                        </h6>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                        <p class="text-muted fs-14">
+                            We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the
+                            pieces of it that we need to build in Gatsby. We're not gonna be doing a deep dive
+                            into what GraphQL is or the language specifics. We're also gonna get into MDX. MDX
+                            is a way to write React components in your markdown.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="my-5">
+        <div class="container">
+            <div class="card rounded shadow">
+                <div class="card-body p-0">
+                    <div id="accordion">
+                        <a href="#accordion-1" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Course Overview</span>
+                                <p class="text-muted fs-12">14 videos (1 hour and 17 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fas fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-1" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 5%;"></div>
+                                <p class="text-dark fs-12">5% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-play fa-xs bg-success text-light rounded-circle p-2"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 7s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center bg-primary text-light fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-play fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Installing Development Software
+                                </span>
+                                <span class="ml-auto">
+                                    3m 11s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-play fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Hello World Project from GitHub
+                                </span>
+                                <span class="ml-auto">
+                                    2m 33s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Hello World Project from GitHub
+                                </span>
+                                <span class="ml-auto">
+                                    2m 15s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-2" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>JavaScript Beginning</span>
+                                <p class="text-muted fs-12">6 videos (34 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-2" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 25%;"></div>
+                                <p class="text-dark fs-12">25% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 41s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Adding JavaScript Code to a Web Page
+                                </span>
+                                <span class="ml-auto">
+                                    3m 39s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Working with JavaScript Files
+                                </span>
+                                <span class="ml-auto">
+                                    6m 18s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Formatting Code
+                                </span>
+                                <span class="ml-auto">
+                                    2m 18s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Detecting and Fixing Errors
+                                </span>
+                                <span class="ml-auto">
+                                    3m 14s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Case Sensitivity
+                                </span>
+                                <span class="ml-auto">
+                                    1m 48s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Commenting Code
+                                </span>
+                                <span class="ml-auto">
+                                    2m 24s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Summary
+                                </span>
+                                <span class="ml-auto">
+                                    2m 14s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-3" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Variables and Constants</span>
+                                <p class="text-muted fs-12">6 videos (3 hour and 24 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-3" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 0%;"></div>
+                                <p class="text-dark fs-12">0% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 19s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    What Is a Variable?
+                                </span>
+                                <span class="ml-auto">
+                                    2m 11s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Declaring Variables
+                                </span>
+                                <span class="ml-auto">
+                                    2m 30s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Using let to Declare Variables
+                                </span>
+                                <span class="ml-auto">
+                                    3m 28s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Naming Variables
+                                </span>
+                                <span class="ml-auto">
+                                    3m 14s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Common Errors Using Variables
+                                </span>
+                                <span class="ml-auto">
+                                    3m 30s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Changing Variables Values
+                                </span>
+                                <span class="ml-auto">
+                                    2m 4s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Constants
+                                </span>
+                                <span class="ml-auto">
+                                    3m 15s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    The var Keyword
+                                </span>
+                                <span class="ml-auto">
+                                    3m 20s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Summary
+                                </span>
+                                <span class="ml-auto">
+                                    1m 49s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-4" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Program Flow</span>
+                                <p class="text-muted fs-12">5 videos (2 hour and 10 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-4" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 0%;"></div>
+                                <p class="text-dark fs-12">0% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 52s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Clip Watched
+                                </span>
+                                <span class="ml-auto">
+                                    4m 27s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Conditionals Using if()
+                                </span>
+                                <span class="ml-auto">
+                                    4m 25s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Truthy Falsy
+                                </span>
+                                <span class="ml-auto">
+                                    3m 30s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    if ... else
+                                </span>
+                                <span class="ml-auto">
+                                    3m 30s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Comparing === and ==
+                                </span>
+                                <span class="ml-auto">
+                                    1m 52s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    The Ternary Operator
+                                </span>
+                                <span class="ml-auto">
+                                    2m 47s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Block Scope Using let
+                                </span>
+                                <span class="ml-auto">
+                                    2m 21s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Looping with do .. while()
+                                </span>
+                                <span class="ml-auto">
+                                    1m 58s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Summary
+                                </span>
+                                <span class="ml-auto">
+                                    2m 21s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-5" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Functions</span>
+                                <p class="text-muted fs-12">7 videos (4 hour and 38 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-5" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 0%;"></div>
+                                <p class="text-dark fs-12">0% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 52s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Clip Watched
+                                </span>
+                                <span class="ml-auto">
+                                    4m 27s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Conditionals Using if()
+                                </span>
+                                <span class="ml-auto">
+                                    4m 25s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Truthy Falsy
+                                </span>
+                                <span class="ml-auto">
+                                    3m 30s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    if ... else
+                                </span>
+                                <span class="ml-auto">
+                                    3m 30s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Comparing === and ==
+                                </span>
+                                <span class="ml-auto">
+                                    1m 52s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    The Ternary Operator
+                                </span>
+                                <span class="ml-auto">
+                                    2m 47s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Block Scope Using let
+                                </span>
+                                <span class="ml-auto">
+                                    2m 21s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Looping with do .. while()
+                                </span>
+                                <span class="ml-auto">
+                                    1m 58s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Summary
+                                </span>
+                                <span class="ml-auto">
+                                    2m 21s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-6" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Objects and The DOM</span>
+                                <p class="text-muted fs-12">4 videos (2 hour and 10 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-6" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 0%;"></div>
+                                <p class="text-dark fs-12">0% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 48s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Object Properties
+                                </span>
+                                <span class="ml-auto">
+                                    4m 28s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Object Methods
+                                </span>
+                                <span class="ml-auto">
+                                    3m 3s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Passing Objects to Functions
+                                </span>
+                                <span class="ml-auto">
+                                    3m 27s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Standart Built-in Objects
+                                </span>
+                                <span class="ml-auto">
+                                    6m 55s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    The Document Object Model (DOM)
+                                </span>
+                                <span class="ml-auto">
+                                    3m 29s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Styling DOM Elements
+                                </span>
+                                <span class="ml-auto">
+                                    2m 42s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Detecting Button Clicks
+                                </span>
+                                <span class="ml-auto">
+                                    2m 3s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Showing and Hiding DOM Elements
+                                </span>
+                                <span class="ml-auto">
+                                    4m 37s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Summary
+                                </span>
+                                <span class="ml-auto">
+                                    2m 47s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-7" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Arrays</span>
+                                <p class="text-muted fs-12">3 videos (1 hour and 5 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-7" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 0%;"></div>
+                                <p class="text-dark fs-12">0% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 48s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Creating and Initializing Arrays
+                                </span>
+                                <span class="ml-auto">
+                                    4m 7s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Accessing Array Items
+                                </span>
+                                <span class="ml-auto">
+                                    2m 4s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Manipulating Arrays
+                                </span>
+                                <span class="ml-auto">
+                                    4m 3s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    slice() and splice()
+                                </span>
+                                <span class="ml-auto">
+                                    5m 54s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Array Searching and Looping
+                                </span>
+                                <span class="ml-auto">
+                                    7m 32s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Arrays in the DOM
+                                </span>
+                                <span class="ml-auto">
+                                    4m 11s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Summary
+                                </span>
+                                <span class="ml-auto">
+                                    2m 28s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-8" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Scope and Hoisting</span>
+                                <p class="text-muted fs-12">2 videos (3 hour and 15 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-8" data-parent="#accordion">
+                            <div class="px-3">
+                                <div class="rounded bg-success p-1 mb-1" style="width: 0%;"></div>
+                                <p class="text-dark fs-12">0% Completed</p>
+                            </div>
+                            <hr>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Introduction
+                                </span>
+                                <span class="ml-auto">
+                                    1m 20s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Global Scope
+                                </span>
+                                <span class="ml-auto">
+                                    4m 7s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Clip Watched
+                                </span>
+                                <span class="ml-auto">
+                                    3m 14s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Function Scope
+                                </span>
+                                <span class="ml-auto">
+                                    3m 45s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Var and Hoisting
+                                </span>
+                                <span class="ml-auto">
+                                    2m 21s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Undeclared Variables and Strict Mode
+                                </span>
+                                <span class="ml-auto">
+                                    2m 16s
+                                </span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center text-dark fw-400 p-3">
+                                <span>
+                                    <i class="fa fa-lock fa-xs text-primary rounded-circle p-2"
+                                        style="background-color: #F5F4F8;"></i>
+                                </span>
+                                <span class="ml-3">
+                                    Summary
+                                </span>
+                                <span class="ml-auto">
+                                    1m 33s
+                                </span>
+                            </a>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <a href="#accordion-9" class="d-flex align-items-start text-dark fs-16 p-3 pb-0"
+                            data-toggle="collapse">
+                            <span>
+                                <span>Summary</span>
+                                <p class="text-muted fs-12">1 videos (5 minutes)</p>
+                            </span>
+                            <span class="ml-auto">
+                                <i class="fa fa-chevron-down fa-xs"></i>
+                            </span>
+                        </a>
+                        <div class="collapse" id="accordion-9" data-parent="#accordion">
+                            <p class="text-dark fs-14 px-3 py-0">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae esse velit eos sunt
+                                ab inventore est tenetur blanditiis? Voluptas eius molestiae ad itaque tempora nobis
+                                minima eveniet aperiam molestias, maiores natus expedita dolores ea non possimus magnam
+                                corrupt i quas rem unde quo enim porro culpa! Quaerat veritatis veniam corrupti iusto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center border-top py-1">
+                <div class="col-lg-6">
+                    <span class="text-muted fs-14">
+                        © 2021 hsyntes. All Rights Reserved.
+                    </span>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="nav nav-footer justify-content-end">
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="nav-link text-muted fw-400">Privacy</a>
+                        <a href="../terms-condition/terms-condition.html" class="nav-link text-muted fw-400">Terms</a>
+                        <a href="#" class="nav-link text-muted fw-400">Feedback</a>
+                        <a href="#" class="nav-link text-muted fw-400">Support</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="../../JS/index/script.js"></script>
+    <script src="../../JS/course-single-v2/course-single-v2.js"></script>
+</body>
+
+</html>

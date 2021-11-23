@@ -1,0 +1,59 @@
+body {
+  overflow-x: hidden !important;
+}
+
+main #world-class-instructors .card {
+  -webkit-transition: all 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
+}
+
+main #world-class-instructors .card:hover {
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+main #world-class-instructors .card .card-body a {
+  font-size: 18px !important;
+  -webkit-transition: all 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
+}
+
+main #world-class-instructors .card .card-body a:hover {
+  color: #754ffe !important;
+}
+
+main .card-footer {
+  background-color: #fff !important;
+}
+
+main #offer {
+  height: 450px;
+  background-color: #18113c;
+}
+
+main #offer .row {
+  height: 450px !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+main #community a {
+  -webkit-transition: all 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
+}
+
+main #community a:hover {
+  color: #754ffe !important;
+}
+
+@media (max-width: 992px) {
+  #offer a {
+    display: block !important;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=landing-couses.css.map */

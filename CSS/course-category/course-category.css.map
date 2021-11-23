@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,MAAM,CAAC;EACH,MAAM,EAAE,gBAAgB;EACxB,gBAAgB,EATJ,OAAO,CASc,UAAU;CAM9C;;AARD,AAGI,MAHE,CAGF,UAAU,CAAC;EACP,MAAM,EAAE,gBAAgB;EACxB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "course-category.scss"
+    ],
+    "names": [],
+    "file": "course-category.css"
+}

@@ -1,0 +1,153 @@
+.navbar {
+  background-color: #18113c !important;
+}
+
+.navbar a.nav-link:hover {
+  color: #fff !important;
+}
+
+.navbar .btn-bar:focus, .navbar .btn-bar:active {
+  background-color: #fff !important;
+  color: #754ffe !important;
+}
+
+header {
+  background-color: #18113c !important;
+}
+
+header .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .row .card {
+  overflow: hidden !important;
+}
+
+header .row .card .btn-accounts:hover {
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+main .card-description-img {
+  background-color: #754ffe;
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+
+main .card-description-img img {
+  position: absolute;
+  width: 64px !important;
+  height: 64px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main #testimonials .card .card-footer {
+  position: relative;
+}
+
+main #testimonials .card .card-footer img {
+  position: absolute;
+  top: -35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  border: 4px solid #754ffe !important;
+}
+
+main #offer {
+  height: 400px;
+  background-color: #18113c;
+}
+
+main #offer .row {
+  height: 400px !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+main #community a {
+  -webkit-transition: all 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
+}
+
+main #community a:hover {
+  color: #754ffe !important;
+}
+
+@media (max-width: 992px) {
+  header {
+    height: 100% !important;
+  }
+  header .row {
+    height: 100% !important;
+    text-align: center !important;
+  }
+  header .row .card {
+    width: 100% !important;
+    margin: auto !important;
+    margin-top: 50px !important;
+  }
+  header .row .card button {
+    display: block !important;
+    width: 100% !important;
+  }
+  #header-sub #header-sub-2 {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+  }
+  #header-sub #header-sub-3 {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  #header-sub #header-sub-4 {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: end !important;
+  }
+  main #your-instructor #row-your-instructor {
+    padding: 0 !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  main #your-instructor #row-your-instructor #your-instrcutor-img {
+    margin-bottom: 50px !important;
+  }
+  main #your-instructor #row-your-instructor .col-lg-6 {
+    text-align: center !important;
+  }
+  #offer a {
+    display: block !important;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header-sub #header-sub-2 {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  #header-sub #header-sub-4 {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+}
+/*# sourceMappingURL=lead-course.css.map */

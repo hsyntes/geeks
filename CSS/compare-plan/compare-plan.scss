@@ -1,0 +1,22 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+body {
+    background-color: #fff !important;
+}
+
+#card-warning {
+    border-top: 5px solid #ffc23d;
+}
+
+#card-primary {
+    border-top: 5px solid $color-primary !important;
+}
+
+#card-secondary {
+    border-top: 5px solid $color-secondary !important;
+}

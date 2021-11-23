@@ -1,0 +1,16 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ED4;
+$color-dark: #18113c;
+
+header {
+    height: 170px !important;
+    background-color: $color-primary !important;
+    .container {
+        height: 170px !important;
+        display: flex;
+        align-items: center;
+    }
+}

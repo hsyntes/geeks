@@ -1,0 +1,44 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+header {
+    background-color: #fff !important;
+    #header-img {
+        height: 50vh !important;
+        img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+            object-position: center !important;
+        }
+    }
+    #header-sub {
+        margin-top: -80px !important;
+        .d-flex {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    header {
+        #header-sub {
+            #header-social {
+                margin: auto !important;
+            }
+        }
+    }
+    // main {
+    //     a.d-flex {
+    //         flex-direction: column;
+    //         align-items: flex-start !important;
+    //         span.ml-3 {
+    //             margin-left: 0 !important;
+    //         }
+    //     }
+    // }
+}

@@ -1,0 +1,15 @@
+header {
+  height: 170px !important;
+  background-color: #754ffe !important;
+}
+
+header .container {
+  height: 170px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=course-category.css.map */

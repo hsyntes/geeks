@@ -1,0 +1,36 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+.card {
+    overflow: hidden !important;
+    transition: all 0.2s ease-out !important;
+    border-radius: 10px !important;
+}
+
+.card-course {
+    .card {
+        &:hover {
+            box-shadow: 0px 0px 15px rgba($color: #000, $alpha: 0.2) !important;
+        }
+        img {
+            transition: all 0.2s ease-in-out !important;
+            &:hover {
+                opacity: 0.75 !important;
+            }
+        }
+        .card-body {
+            a.card-title {
+                transition: all 0.2s ease-out !important;
+                &:hover {
+                    color: $color-primary !important;
+                }
+            }
+        }
+        .card-footer {
+            background-color: #fff !important;
+        }
+    }
+}

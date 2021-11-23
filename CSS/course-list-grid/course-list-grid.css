@@ -1,0 +1,12 @@
+header {
+  background-color: #754ffe !important;
+}
+
+@media (max-width: 992px) {
+  #course-toolbar {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+}
+/*# sourceMappingURL=course-list-grid.css.map */

@@ -1,0 +1,51 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+input[type="text"] {
+    &::placeholder {
+        color: #000 !important;
+    }
+}
+
+.container {
+    height: 100vh !important;
+    .row {
+        height: 100vh !important;
+        .card {
+            form {
+                .form-group {
+                    button {
+                        transition: all 0.2s ease-out !important;
+                    }
+                    #facebook-btn {
+                        &:hover {
+                            background-color: #3a5998 !important;
+                            color: #fff !important;
+                        }
+                    }
+                    #twitter-btn {
+                        &:hover {
+                            background-color: #1da1f2 !important;
+                            color: #fff !important;
+                        }
+                    }
+                    #linkedin-btn {
+                        &:hover {
+                            background-color: #0077b5 !important;
+                            color: #fff !important;
+                        }
+                    }
+                    #github-btn {
+                        &:hover {
+                            background-color: #4078c0 !important;
+                            color: #fff !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

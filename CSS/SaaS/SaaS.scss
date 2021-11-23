@@ -1,0 +1,35 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+body {
+    background-color: #fff !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+}
+
+.trusted-icon {
+    width: 48px;
+    height: 48px;
+    background-color: $color-primary;
+    position: relative;
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        #row-graphics {
+            flex-direction: column-reverse !important;
+        }
+    }
+}

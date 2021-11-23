@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../CSS/body/body.css">
+    <link rel="stylesheet" href="../../CSS/nav/nav.css">
+    <link rel="stylesheet" href="../../CSS/footer/footer.css">
+    <link rel="stylesheet" href="../../CSS/SaaS/SaaS.css">
+    <link rel="icon" href="../../img/title/title-icon.svg">
+    <title>SaaS | Geeks - Academy Admin Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light align-items-center">
+        <a href="../index/index.html" class="navbar-brand">
+            <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/brand/logo/logo.svg" alt="">
+        </a>
+        <button class="btn btn-outline-primary d-lg-none btn-bar" data-toggle="collapse"
+            data-target="#collapse-navbar-menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" id="landings"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Landings&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="#landings-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">LANDINGS</h6>
+                        <a href="../landing-course/landing-courses.html" class="dropdown-item">Courses</a>
+                        <a href="../lead-course/lead-course.html" class="dropdown-item">Lead Course</a>
+                        <a href="../request-access/request-access.html" class="dropdown-item">Request Access</a>
+                        <a href="../SaaS/saas.html" class="dropdown-item">
+                            SaaS
+                            <span class="badge badge-danger py-1">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="pages"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Pages&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="pages-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center ">
+                                Courses
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-single/course-single.html" class="dropdown-item">Course Signle</a>
+                                <a href="../course-single-v2/course-single-v2.html" class="dropdown-item">Course Signle
+                                    v2</a>
+                                <a href="../course-resume/course-resume.html" class="dropdown-item">Course Resume</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Course
+                                    Category</a>
+                                <a href="../course-checkout/course-checkout.html" class="dropdown-item">Course
+                                    Checkout</a>
+                                <a href="../course-list-grid/course-list-grid.html" class="dropdown-item">Course
+                                    List/Grid</a>
+                                <a href="#" class="dropdown-item">Add New Course</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Paths
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../browse-path/browse-path.html" class="dropdown-item">Browse Path</a>
+                                <a href="../path-single/path-single.html" class="dropdown-item">Path Single</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Blog
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../listing/listing.html" class="dropdown-item">Listing</a>
+                                <a href="../article/" class="dropdown-item">Article</a>
+                                <a href="../blog-category/blog-category.html" class="dropdown-item">Category</a>
+                                <a href="../sidebar/sidebar.html" class="dropdown-item">Sidebar</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Career&nbsp;
+                                <span class="badge badge-danger">New</span>
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../overview/overview.html" class="dropdown-item">Overview</a>
+                                <a href="../career-list/career-list.html" class="dropdown-item">Listing</a>
+                                <a href="../opening/opening.html" class="dropdown-item">Opening</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Specialty
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../coming-soon/coming-soon.html" class="dropdown-item">Coming Soon</a>
+                                <a href="../error-404/error-404.html" class="dropdown-item">Error 404</a>
+                                <a href="../maintanence/maintanence.html" class="dropdown-item">Maintenance Mode</a>
+                                <a href="../terms-condition/terms-condition.html" class="dropdown-item">Terms &
+                                    Conditions</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../about/about.html" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Help Center</a>
+                        <a href="../pricing/pricing.html" class="dropdown-item">Pricing</a>
+                        <a href="../compare-plan/compare-plan.html" class="dropdown-item">
+                            Compare Plan
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                        <a href="../contact/contact.html" class="dropdown-item">
+                            Contact
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a id="accounts" href="#"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Accounts&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="accounts-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">ACCOUNTS</h6>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Instructor
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="instructor-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">INSTRUCTOR</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Instructor dashboard for manage courses and earning.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../instructor-dashboard/instructor-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../instructor-profile/instructor-profile.html"
+                                    class="dropdown-item">Profile</a>
+                                <a href="../instructor-courses/instructor-courses.html" class="dropdown-item">My
+                                    Courses</a>
+                                <a href="../instructor-orders/instructor-orders.html" class="dropdown-item">Orders</a>
+                                <a href="../instructor-reviews/instructor-reviews.html"
+                                    class="dropdown-item">Reviews</a>
+                                <a href="../instructor-students/instructor-students.html"
+                                    class="dropdown-item">Students</a>
+                                <a href="../instructor-payout/instructor-payout.html" class="dropdown-item">Payouts</a>
+                                <a href="../instructor-earning/instructor-earning.html"
+                                    class="dropdown-item">Earning</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Students
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="students-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">STUDENTS</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Students dashboard to manage your courses and subscriptions.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../students-subscriptions/students-subscriptions.html"
+                                    class="dropdown-item">Subscriptions</a>
+                                <a href="../students-payment/students-payment.html" class="dropdown-item">Payments</a>
+                                <a href="../students-billing-info/students-billing-info.html"
+                                    class="dropdown-item">Billing Info</a>
+                                <a href="../students-invoice/students-invoice.html" class="dropdown-item">Invoice</a>
+                                <a href="../students-invoice-details/students-invoice-details.html"
+                                    class="dropdown-item">Invoice Details</a>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Bookmarked</a>
+                                <a href="../students-dashboard/students-dashboard.html" class="dropdown-item">My
+                                    Path</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Admin
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="admin-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">MASTER ADMIN</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Master admin dashboard to manage courses, user, site setting , and work with amazing
+                                    apps.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary m-2">Go to Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../sign-in/sign-in.html" class="dropdown-item">Sign In</a>
+                        <a href="../sign-up/sign-up.html" class="dropdown-item">Sign Up</a>
+                        <a href="../forget-password/forget-password.html" class="dropdown-item">Forgot Password</a>
+                        <a href="../students-edit-profile/students-edit-profile.html" class="dropdown-item">Edit
+                            Profile</a>
+                        <a href="../students-security/students-security.html" class="dropdown-item">Security</a>
+                        <a href="../students-social-profiles/students-social-profiles.html" class="dropdown-item">Social
+                            Profiles</a>
+                        <a href="../students-notifications/students-notifications.html"
+                            class="dropdown-item">Notifications</a>
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="dropdown-item">Privacy Settings</a>
+                        <a href="../students-delete-profile/students-delete-profile.html" class="dropdown-item">Delete
+                            Profile</a>
+                        <a href="../students-linked-accounts/students-linked-accounts.html" class="dropdown-item">Linked
+                            Accounts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="ellipsis" class="nav-link d-flex align-items-center dropdown-link text-dark"><i
+                            class="fa fa-ellipsis-h font-weight-normal"></i>&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="ellipsis-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <a href="../terms-condition/terms-condition.html"
+                            class="dropdown-item d-flex align-items-center py-3">
+                            <i class="far fa-file-alt fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Documentations</h6>
+                                <p class="text-muted p-0 m-0">Browse the all documentation</p>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item d-flex align-items-center py-3">
+                            <i class="fas fa-code-branch fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Changelog <span class="text-primary">v2.2.0</span>
+                                </h6>
+                                <p class="text-muted p-0 m-0">See what's new</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="btn btn-outline-primary py-3 px-4 my-3 my-lg0">Buy Now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row p-5" id="row-graphics">
+                <div class="col-lg-5">
+                    <h1 class="text-dark display-4">Modern web apps shipped faster</h1>
+                    <div class="d-flex align-items-start mt-5">
+                        <span>
+                            <i class="fas fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                        </span>
+                        <span class="text-dark fw-500 fs-20 ml-2">
+                            Simple to use, beautiful UI design
+                        </span>
+                    </div>
+                    <div class="d-flex align-items-start my-2">
+                        <span>
+                            <i class="fas fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                        </span>
+                        <span class="text-dark fw-500 fs-20 ml-2">
+                            Complete complex project with ease
+                        </span>
+                    </div>
+                    <div class="d-flex align-items-start mb-5">
+                        <span>
+                            <i class="fas fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                        </span>
+                        <span class="text-dark fw-500 fs-20 ml-2">
+                            An intuitive admin app for developers
+                        </span>
+                    </div>
+                    <a href="#" class="btn btn-primary p-3">Get started for Free</a>
+                    <br>
+                    <a href="#" class="text-primary fw-600" style="text-decoration: underline !important;">Questions?
+                        Talk to an expert.</a>
+                </div>
+                <div class="col-lg-7">
+                    <img src="../../img/graphics/graphics.svg" class="img-fluid">
+                </div>
+            </div>
+
+            <br>
+
+            <section class="my-5">
+                <h6 class="text-muted text-center fw-400">TRUSTED BY MILLIONS OF DEVELOPERS & THOUSANDS OF ENTERPRISE
+                    TEAMS</h6>
+                <div class="row justify-content-center my-4">
+                    <div class="col-4 col-lg-2 my-3">
+                        <img src="../../img/featured-in/gray-logo-airbnb.svg" alt="">
+                    </div>
+                    <div class="col-4 col-lg-2 my-3">
+                        <img src="../../img/featured-in/gray-logo-discord.svg" alt="">
+                    </div>
+                    <div class="col-4 col-lg-2 my-3">
+                        <img src="../../img/featured-in/gray-logo-intercom.svg" alt="">
+                    </div>
+                    <div class="col-4 col-lg-2 my-3">
+                        <img src="../../img/featured-in/gray-logo-stripe.svg" alt="">
+                    </div>
+                    <div class="col-4 col-lg-2 my-3">
+                        <img src="../../img/featured-in/gray-logo-netflix.svg" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <br>
+
+    <main class="my-5 py-5 bg-light">
+        <div class="container">
+            <section class="my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-6 my-3">
+                        <div class="trusted-icon rounded-circle">
+                            <i class="fas fa-bolt text-light"></i>
+                        </div>
+                        <h5 class="text-dark fw-700 m-0 p-0 mt-4 mb-2">
+                            Easy Setup Process
+                        </h5>
+                        <p class="text-muted m-0 p-0">
+                            Vivamus sit amet eros facilisis, suscipit libero eget, elementum diam. Praesent quam.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3">
+                        <div class="trusted-icon rounded-circle">
+                            <i class="fas fa-layer-group text-light"></i>
+                        </div>
+                        <h5 class="text-dark fw-700 m-0 p-0 mt-4 mb-2">
+                            Quality First
+                        </h5>
+                        <p class="text-muted m-0 p-0">
+                            Quality first. All projects are backed by our fanatic support & 100% satisfaction guarantee.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3">
+                        <div class="trusted-icon rounded-circle">
+                            <i class="fas fa-mobile-alt text-light"></i>
+                        </div>
+                        <h5 class="text-dark fw-700 m-0 p-0 mt-4 mb-2">
+                            Customizable
+                        </h5>
+                        <p class="text-muted m-0 p-0">
+                            Mauris interdum leo vel eleifend fringilla, nibh elit interdum nisi nec porttitor nunc
+                            egestas.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 my-3">
+                        <div class="trusted-icon rounded-circle">
+                            <i class="fas fa-infinity text-light"></i>
+                        </div>
+                        <h5 class="text-dark fw-700 m-0 p-0 mt-4 mb-2">
+                            Unlimited
+                        </h5>
+                        <p class="text-muted m-0 p-0">
+                            Excepteur sint occaecat cupidatat non proident, sunt in anim id est laborum velit esse
+                            cillum.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+
+            <section class="my-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="../../img/featured/featured-img-1.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="text-primary fs-14 fw-600" style="letter-spacing: 2px;">BUILD FAST, LAUNCH FASTER
+                        </h6>
+                        <h1 class="text-dark">Build the sites you want with Geeks UI you love</h1>
+                        <p class="text-dark fs-18 fw-500">
+                            Mauris interdum leo vel eleifend fringilla nibh elit interdc nunc elementum nisi.
+                        </p>
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="fa fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                                <span class="text-muted fw-500 ml-2">Earnings</span>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="fa fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                                <span class="text-muted fw-500 ml-2">High converting</span>
+                            </div>
+                            <div class="col-6 d-flex align-items-center my-2">
+                                <i class="fa fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                                <span class="text-muted fw-500 ml-2">Conversion Rates</span>
+                            </div>
+                            <div class="col-6 d-flex align-items-center my-2">
+                                <i class="fa fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                                <span class="text-muted fw-500 ml-2">Easy to use</span>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="fa fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                                <span class="text-muted fw-500 ml-2">Top security</span>
+                            </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <i class="fa fa-check fa-xs bg-success text-light rounded-circle p-1"></i>
+                                <span class="text-muted fw-500 ml-2">200+ Integrations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+
+            <hr style="opacity: 0.5 !important;">
+
+            <section class="my-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h6 class="text-muted">BULLET POINT FEATURES</h6>
+                        <h1 class="text-dark my-4">
+                            The most powerful design for web projects
+                        </h1>
+                        <p class="text-dark fs-20 fw-500">
+                            Donec eget enim volutpat punar turpis at elementum neque.
+                        </p>
+                        <div class="d-flex align-items-start my-4 mt-5">
+                            <div class="div">
+                                <i class="fas fa-star fa-lg text-primary"></i>
+                            </div>
+                            <div class="ml-2">
+                                <h5 class="text-dark fw-500">5-Star Rating</h5>
+                                <p class="text-muted fw-18">
+                                    Pellentesque ipsum nulla cursus sodales enim non interdum dignissim quam.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start my-4">
+                            <div class="div">
+                                <i class="far fa-life-ring fa-lg text-primary"></i>
+                            </div>
+                            <div class="ml-2">
+                                <h5 class="text-dark fw-500">Dedicated Support</h5>
+                                <p class="text-muted fw-18">
+                                    Nullam sagittis metus ut lorem efficitur in bibendum augue pharetra.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start my-4">
+                            <div class="div">
+                                <i class="far fa-file-alt fa-lg text-primary"></i>
+                            </div>
+                            <div class="ml-2">
+                                <h5 class="text-dark fw-500">
+                                    Quality Documentation
+                                    <span class="badge badge-warning text-light fs-14">Coming Soon!</span>
+                                </h5>
+                                <p class="text-muted fw-18">
+                                    Nullam sagittis metus ut lorem efficitur in bibendum augue pharetra.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../../img/featured/featured-img-2.svg" class="img-fluid">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <br>
+
+        <section class="my-5 py-5 bg-dark">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 py-5">
+                        <h6 class="text-warning text-center fw-600 fs-14" style="letter-spacing: 2px;">APP INTEGRATION
+                            SECTIONS</h6>
+                        <h1 class="text-light text-center">Integrate with the Apps</h1>
+                        <p class="text-muted text-center fs-20">
+                            Build on your workflow with apps that integrate with Geeks UI.
+                        </p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-4 col-xl-2 my-2">
+                        <div class="card rounded py-3"
+                            style="background: none !important; border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <div class="card-body">
+                                <!-- <i class="fab fa-dropbox text-left fa-3x" style="color: blue;"></i> -->
+                                <img src="../../img/integrated/dropbox-logo.svg" class="img-fluid" width="50">
+                                <h5 class="card-title text-light m-0 p-0 mt-3 mb-2">Dropbox</h5>
+                                <p class="card-text text-muted fs-14 m-0 p-0">
+                                    Bring your files and cloud content together.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 my-2">
+                        <div class="card rounded py-3"
+                            style="background: none !important; border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <div class="card-body">
+                                <img src="../../img/integrated/hubspot.svg" class="img-fluid" width="50" alt="">
+                                <h5 class="card-title text-light m-0 p-0 mt-3 mb-2">HubSpot</h5>
+                                <p class="card-text text-muted fs-14 m-0 p-0">
+                                    Full platform of marketing, sales, other service.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 my-2">
+                        <div class="card rounded py-3"
+                            style="background: none !important; border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <div class="card-body">
+                                <img src="../../img/integrated/google-drive.svg" class="img-fluid" width="50" alt="">
+                                <h5 class="card-title text-light m-0 p-0 mt-3 mb-2">Drive</h5>
+                                <p class="card-text text-muted fs-14 m-0 p-0">
+                                    Integrates seamlessly with Docs, Sheets...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 my-2">
+                        <div class="card rounded py-3"
+                            style="background: none !important; border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <div class="card-body">
+                                <img src="../../img/integrated/slack-logo.svg" class="img-fluid" width="50" alt="">
+                                <h5 class="card-title text-light m-0 p-0 mt-3 mb-2">Slack</h5>
+                                <p class="card-text text-muted fs-14 m-0 p-0">
+                                    New way to communicate with your team.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 my-2">
+                        <div class="card rounded py-3"
+                            style="background: none !important; border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <div class="card-body">
+                                <img src="../../img/integrated/zapier.svg" class="img-fluid" width="50" alt="">
+                                <h5 class="card-title text-light m-0 p-0 mt-3 mb-2">Zapier</h5>
+                                <p class="card-text text-muted fs-14 m-0 p-0">
+                                    Streamline work with automation today.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 my-2">
+                        <div class="card rounded py-3"
+                            style="background: none !important; border: 1px solid rgba(255, 255, 255, 0.2);">
+                            <div class="card-body">
+                                <img src="../../img/integrated/dropbox-logo.svg" class="img-fluid" width="50" alt="">
+                                <h5 class="card-title text-light m-0 p-0 mt-3 mb-2">HubSpot</h5>
+                                <p class="card-text text-muted fs-14 m-0 p-0">
+                                    Full platform of marketing,sales, other service.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary py-3 mt-4">View All Apps</a>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <div class="container">
+            <section class="my-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card border-0">
+                            <div class="card-header border-0">
+                                <img src="../../img/integrated/hubspot-logo.svg" alt="">
+                            </div>
+                            <div class="card-body bg-light">
+                                <p class="card-text text-muted fs-20">
+                                    "I am very satisfied with my purchase. Your team helped me a lot with the new
+                                    release for RLT version. I hope you are always successful. Thank you for your
+                                    services and support."
+                                </p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <h6 class="card-title text-dark fw-500 m-0 p-0">Ali</h6>
+                                <p class="card-text text-muted fs-14 m-0 p-0">Geeks UI Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-5 my-lg-0">
+                        <div class="card border-0">
+                            <div class="card-header border-0">
+                                <img src="../../img/integrated/slack-logo-with-text.svg" alt="">
+                            </div>
+                            <div class="card-body bg-light">
+                                <p class="card-text text-muted fs-20">
+                                    "This item has everything you need for creating a modern learning-platform. Really
+                                    delighted by many details and the overall architecture. Support was superfast and
+                                    helpful as well."
+                                </p>
+                            </div>
+                            <div class="card-footer border-0">
+                                <h6 class="card-title text-dark fw-500 m-0 p-0">Bernhar</h6>
+                                <p class="card-text text-muted fs-14 m-0 p-0">Geeks UI Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+
+            <hr>
+
+            <section class="my-5">
+                <h1 class="text-dark text-center">Simple Plans for everyone</h1>
+                <p class="text-muted text-center fs-20">
+                    Everything you need to design like a professional. Boost you and your team s creativity and
+                    supercharge your productivity with Geeks UI Pro.
+                </p>
+                <div class="row justify-content-center my-5 py-5">
+                    <div class="col-lg-4">
+                        <div class="card" style="background: none !important;">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark fw-600">FREE</h5>
+                                <div class="d-flex align-items-start">
+                                    <i class="fas fa-dollar-sign text-dark"></i>
+                                    <span class="text-dark display-4 fw-600">0</span>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary py-3 px-4 my-4">Start designing</a>
+                                <div class="card-list-properties">
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">20+ high quality design</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">Instant access to 2 icon library</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">
+                                            24+ Free initial components</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fas fa-times fa-xs text-muted"></i>
+                                        <span class="text-muted fs-14 ml-2">300+ beautiful design pages</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fas fa-times fa-xs text-muted"></i>
+                                        <span class="text-muted fs-14 ml-2">Admin dashboard pages</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fas fa-times fa-xs text-muted"></i>
+                                        <span class="text-muted fs-14 ml-2">Support 24/7 hours</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-4 my-lg-0">
+                        <div class="card" style="background: none !important;">
+                            <div class="card-body">
+                                <h5 class="card-title text-dark fw-600">PRO</h5>
+                                <div class="d-flex align-items-start">
+                                    <i class="fas fa-dollar-sign text-dark"></i>
+                                    <span class="text-dark display-4 fw-600">49</span>
+                                </div>
+                                <a href="#" class="btn btn-primary py-3 px-4 my-4">Try free for 30 days</a>
+                                <div class="card-list-properties">
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">20+ high quality design</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">Instant access to 2 icon library</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">
+                                            24+ Free initial components</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">300+ beautiful design pages</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">Admin dashboard pages</span>
+                                    </div>
+                                    <div class="d-flex align-items-center my-3">
+                                        <i class="fa fa-check fa-xs text-success"></i>
+                                        <span class="text-muted fs-14 ml-2">Support 24/7 hours</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4 class="text-dark text-center fw-500">Need a custom plan for your company?</h4>
+                        <p class="text-muted text-center">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper scelerisque morbi
+                            lobortis contact us.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <br>
+
+        <section class="bg-dark my-5 py-5">
+            <div class="container">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-8">
+                        <h6 class="text-warning text-center fw-600 my-4" style="letter-spacing: 3px;">GET THINGS DONE
+                        </h6>
+                        <h1 class="text-light text-center">Just try it out! You’ll fall in love</h1>
+                        <p class="text-muted text-center fs-20 my-4">
+                            Designed for modern companies looking to launch a simple, premium and modern website and
+                            apps.
+                        </p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-primary py-3 px-4">Try For Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <div class="container">
+            <section class="my-5" id="community">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/brand/logo/logo.svg" alt="">
+                        <p class="text-muted m-0 p-0 my-4 fs-14">
+                            Geek is feature-rich components and beautifully Bootstrap UIKit for developers, built with
+                            bootstrap responsive framework.
+                        </p>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="text-muted">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a href="#" class="text-muted">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="text-muted">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 ml-auto mt-5 mt-lg-0">
+                        <h5 class="text-dark">Company</h5>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1 mt-3">About</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Pricing</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Blog</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Careers</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Contact</a>
+                    </div>
+                    <div class="col-6 col-lg-2 mt-5 mt-lg-0">
+                        <h5 class="text-dark">Support</h5>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1 mt-3">Help and Support</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Become Instructor</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Get the app</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">FAQ's</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Tutorial</a>
+                    </div>
+                    <div class="col-lg-3 mt-5 mt-lg-0">
+                        <h5 class="text-dark">Get in touch</h5>
+                        <p class="text-muted m-0 p-0 mt-3 fs-14">339 McDermott Points Hettingerhaven, NV 15283</p>
+                        <br>
+                        <span class="text-muted fs-14">
+                            Email:
+                            <a href="#"
+                                class="nav-link text-primary d-inline font-weight-normal m-0 p-0">support@geeksui.com</a>
+                        </span>
+                        <br>
+                        <span class="text-muted fs-14">
+                            Phone: <span class="text-dark fw-600">(000) 123 456 789</span>
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center border-top py-1">
+                <div class="col-lg-6">
+                    <span class="text-muted fs-14">
+                        © 2021 hsyntes. All Rights Reserved.
+                    </span>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="nav nav-footer justify-content-end">
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="nav-link text-muted fw-400">Privacy</a>
+                        <a href="../terms-condition/terms-condition.html" class="nav-link text-muted fw-400">Terms</a>
+                        <a href="#" class="nav-link text-muted fw-400">Feedback</a>
+                        <a href="#" class="nav-link text-muted fw-400">Support</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="../../JS/index/script.js"></script>
+</body>
+
+</html>

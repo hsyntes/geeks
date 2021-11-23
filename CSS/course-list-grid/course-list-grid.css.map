@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,MAAM,CAAC;EACH,gBAAgB,EARJ,OAAO,CAQc,UAAU;CAC9C;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,eAAe,CAAC;IACZ,eAAe,EAAE,gBAAgB;GACpC",
+    "sources": [
+        "course-list-grid.scss"
+    ],
+    "names": [],
+    "file": "course-list-grid.css"
+}

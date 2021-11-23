@@ -1,0 +1,49 @@
+input[type="text"]::-webkit-input-placeholder {
+  color: #000 !important;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  color: #000 !important;
+}
+
+input[type="text"]::-ms-input-placeholder {
+  color: #000 !important;
+}
+
+input[type="text"]::placeholder {
+  color: #000 !important;
+}
+
+.container {
+  height: 100vh !important;
+}
+
+.container .row {
+  height: 100vh !important;
+}
+
+.container .row .card form .form-group button {
+  -webkit-transition: all 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
+}
+
+.container .row .card form .form-group #facebook-btn:hover {
+  background-color: #3a5998 !important;
+  color: #fff !important;
+}
+
+.container .row .card form .form-group #twitter-btn:hover {
+  background-color: #1da1f2 !important;
+  color: #fff !important;
+}
+
+.container .row .card form .form-group #linkedin-btn:hover {
+  background-color: #0077b5 !important;
+  color: #fff !important;
+}
+
+.container .row .card form .form-group #github-btn:hover {
+  background-color: #4078c0 !important;
+  color: #fff !important;
+}
+/*# sourceMappingURL=sign-in.css.map */

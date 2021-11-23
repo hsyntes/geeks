@@ -1,0 +1,33 @@
+.btn-fragment:hover {
+  color: #754ffe !important;
+  border-bottom: 1px solid #754ffe !important;
+}
+
+.btn-fragment-active {
+  color: #754ffe !important;
+  border-bottom: 1px solid #754ffe !important;
+}
+
+.btn-fragment-category-list-active {
+  background-color: #754ffe;
+  color: #fff !important;
+}
+
+@-webkit-keyframes fragment-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fragment-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=fragment.css.map */

@@ -1,0 +1,16 @@
+body {
+  background-color: #fff !important;
+}
+
+#card-warning {
+  border-top: 5px solid #ffc23d;
+}
+
+#card-primary {
+  border-top: 5px solid #754ffe !important;
+}
+
+#card-secondary {
+  border-top: 5px solid #29baf9 !important;
+}
+/*# sourceMappingURL=compare-plan.css.map */

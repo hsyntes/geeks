@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../CSS/body/body.css">
+    <link rel="stylesheet" href="../../CSS/nav/nav.css">
+    <link rel="stylesheet" href="../../CSS/footer/footer.css">
+    <link rel="stylesheet" href="../../CSS/opening/opening.css">
+    <link rel="icon" href="../../img/title/title-icon.svg">
+    <title>Career Single | Geeks - Bootstrap 5 Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light align-items-center py-3 shadow">
+        <a href="../index/index.html" class="navbar-brand">
+            <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/brand/logo/logo.svg" alt="">
+        </a>
+        <button class="btn btn-outline-primary d-lg-none btn-bar" data-toggle="collapse"
+            data-target="#collapse-navbar-menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-navbar-menu">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item dropdown">
+                    <a href="#" id="browse"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Browse&nbsp;<i
+                            class="fa fa-angle-down text-muted ml-auto"></i></a>
+                    <div id="browse-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Web Development&nbsp;
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Bootstrap</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">React</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">GraphQl</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Gatsby</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Grunt</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Svelte</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Meteor</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">HTML5</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Angular</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Design
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Graphic
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Illustrator</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">UX / UI
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Figma Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Adobe XD</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Sketch</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Icon Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Photoshop</a>
+                            </div>
+                        </div>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Mobile App</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">IT Software</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Marketing</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Music</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Life Style</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Business</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Photography</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="landings"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Landings&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="#landings-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">LANDINGS</h6>
+                        <a href="../landing-course/landing-courses.html" class="dropdown-item">Courses</a>
+                        <a href="../lead-course/lead-course.html" class="dropdown-item">Lead Course</a>
+                        <a href="../request-access/request-access.html" class="dropdown-item">Request Access</a>
+                        <a href="../SaaS/saas.html" class="dropdown-item">
+                            SaaS
+                            <span class="badge badge-danger py-1">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="pages"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Pages&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="pages-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center ">
+                                Courses
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-single/course-single.html" class="dropdown-item">Course Signle</a>
+                                <a href="../course-single-v2/course-single-v2.html" class="dropdown-item">Course Signle
+                                    v2</a>
+                                <a href="../course-resume/course-resume.html" class="dropdown-item">Course Resume</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Course
+                                    Category</a>
+                                <a href="../course-checkout/course-checkout.html" class="dropdown-item">Course
+                                    Checkout</a>
+                                <a href="../course-list-grid/course-list-grid.html" class="dropdown-item">Course
+                                    List/Grid</a>
+                                <a href="#" class="dropdown-item">Add New Course</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Paths
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../browse-path/browse-path.html" class="dropdown-item">Browse Path</a>
+                                <a href="../path-single/path-single.html" class="dropdown-item">Path Single</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Blog
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../listing/listing.html" class="dropdown-item">Listing</a>
+                                <a href="../article/article.html" class="dropdown-item">Article</a>
+                                <a href="../blog-category/blog-category.html" class="dropdown-item">Category</a>
+                                <a href="../sidebar/sidebar.html" class="dropdown-item">Sidebar</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Career&nbsp;
+                                <span class="badge badge-danger">New</span>
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../overview/overview.html" class="dropdown-item">Overview</a>
+                                <a href="../career-list/career-list.html" class="dropdown-item">Listing</a>
+                                <a href="../opening/opening.html" class="dropdown-item">Opening</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Specialty
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../coming-soon/coming-soon.html" class="dropdown-item">Coming Soon</a>
+                                <a href="../error-404/error-404.html" class="dropdown-item">Error 404</a>
+                                <a href="../maintanence/maintanence.html" class="dropdown-item">Maintenance Mode</a>
+                                <a href="../terms-condition/terms-condition.html" class="dropdown-item">Terms &
+                                    Conditions</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../about/about.html" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Help Center</a>
+                        <a href="../pricing/pricing.html" class="dropdown-item">Pricing</a>
+                        <a href="../compare-plan/compare-plan.html" class="dropdown-item">
+                            Compare Plan
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                        <a href="../contact/contact.html" class="dropdown-item">
+                            Contact
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a id="accounts" href="#"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Accounts&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="accounts-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">ACCOUNTS</h6>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Instructor
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="instructor-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">INSTRUCTOR</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Instructor dashboard for manage courses and earning.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../instructor-dashboard/instructor-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../instructor-profile/instructor-profile.html"
+                                    class="dropdown-item">Profile</a>
+                                <a href="../instructor-courses/instructor-courses.html" class="dropdown-item">My
+                                    Courses</a>
+                                <a href="../instructor-orders/instructor-orders.html" class="dropdown-item">Orders</a>
+                                <a href="../instructor-reviews/instructor-reviews.html"
+                                    class="dropdown-item">Reviews</a>
+                                <a href="../instructor-students/instructor-students.html"
+                                    class="dropdown-item">Students</a>
+                                <a href="../instructor-payout/instructor-payout.html" class="dropdown-item">Payouts</a>
+                                <a href="../instructor-earning/instructor-earning.html"
+                                    class="dropdown-item">Earning</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Students
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="students-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">STUDENTS</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Students dashboard to manage your courses and subscriptions.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../students-subscriptions/students-subscriptions.html"
+                                    class="dropdown-item">Subscriptions</a>
+                                <a href="../students-payment/students-payment.html" class="dropdown-item">Payments</a>
+                                <a href="../students-billing-info/students-billing-info.html"
+                                    class="dropdown-item">Billing Info</a>
+                                <a href="../students-invoice/students-invoice.html" class="dropdown-item">Invoice</a>
+                                <a href="../students-invoice-details/students-invoice-details.html"
+                                    class="dropdown-item">Invoice Details</a>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Bookmarked</a>
+                                <a href="../students-dashboard/students-dashboard.html" class="dropdown-item">My
+                                    Path</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Admin
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="admin-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">MASTER ADMIN</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Master admin dashboard to manage courses, user, site setting , and work with amazing
+                                    apps.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary m-2">Go to Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../sign-in/sign-in.html" class="dropdown-item">Sign In</a>
+                        <a href="../sign-up/sign-up.html" class="dropdown-item">Sign Up</a>
+                        <a href="../forget-password/forget-password.html" class="dropdown-item">Forgot Password</a>
+                        <a href="../students-edit-profile/students-edit-profile.html" class="dropdown-item">Edit
+                            Profile</a>
+                        <a href="../students-security/students-security.html" class="dropdown-item">Security</a>
+                        <a href="../students-social-profiles/students-social-profiles.html" class="dropdown-item">Social
+                            Profiles</a>
+                        <a href="../students-notifications/students-notifications.html"
+                            class="dropdown-item">Notifications</a>
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="dropdown-item">Privacy Settings</a>
+                        <a href="../students-delete-profile/students-delete-profile.html" class="dropdown-item">Delete
+                            Profile</a>
+                        <a href="../students-linked-accounts/students-linked-accounts.html" class="dropdown-item">Linked
+                            Accounts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="ellipsis" class="nav-link d-flex align-items-center dropdown-link text-dark"><i
+                            class="fa fa-ellipsis-h font-weight-normal"></i>&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="ellipsis-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <a href="../terms-condition/terms-condition.html"
+                            class="dropdown-item d-flex align-items-center py-3">
+                            <i class="far fa-file-alt fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Documentations</h6>
+                                <p class="text-muted p-0 m-0">Browse the all documentation</p>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item d-flex align-items-center py-3">
+                            <i class="fas fa-code-branch fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Changelog <span class="text-primary">v2.2.0</span>
+                                </h6>
+                                <p class="text-muted p-0 m-0">See what's new</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item mt-3 mt-lg-0">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary px-3">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <input type="text" class="form-control border-primary" placeholder="Search Courses"
+                            style="height: 50px !important;">
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mt-3 mt-lg-0">
+                    <a href="../sign-in/sign-in.html" class="btn btn-light   py-3 px-4 border shadow">Sign In</a>
+                    <a href="../sign-up/sign-up.html" class="btn btn-primary py-3 px-4 border shadow">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="text-dark text-center my-3">
+                        Software Engineer
+                        <br>
+                        Ruby on Rails
+                    </h1>
+                    <p class="text-muted text-center fs-14">Canada <span style="opacity: 0.5;">(Remote)</span></p>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-6 m-auto">
+                    <p class="text-muted fs-14">
+                        We are looking for a Ruby on Rails developer responsible for managing the interchange of data
+                        between the server and the users.
+                    </p>
+                    <p class="text-muted fs-14">
+                        Your primary focus will be development of all server-side logic, definition and maintenance of
+                        the central database, and ensuring high performance and responsiveness to requests from the
+                        front-end.
+                    </p>
+                    <p class="text-muted fs-14">
+                        You will also be responsible for integrating the front-end elements built by your co-workers
+                        into the application. Therefore, a basic understanding of front-end technologies is necessary as
+                        well.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-6 m-auto">
+                    <h4 class="text-dark fw-500 mb-4">Responsibilities</h4>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Design, build, and maintain efficient, reusable, and reliable Ruby code
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Identify bottlenecks and bugs, and devise solutions to these problems
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Integration of user-facing elements developed by front-end developers with server side logic
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Help maintain code quality, organization and automatization
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Experience with Ruby on Rails, along with other common libraries such as RSpec and Resque
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Basic understanding of front-end technologies, such as JavaScript, HTML5, and CSS3
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Ability to integrate multiple data sources and databases into one system
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-6 m-auto">
+                    <h4 class="text-dark fw-500 mb-4">What We Offer?</h4>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Competitive salary
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Benefits (vary by location)
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            A highly skilled and dedicated team that is fun to work with
+                        </span>
+                    </p>
+                    <p class="d-flex fs-14 m-0 p-0 my-3">
+                        <span>
+                            <i class="fa fa-check-circle text-primary"></i>
+                        </span>
+                        <span class="text-muted ml-2">
+                            Remote work – We are a diverse and distributed team that uses Slack, Zoom, Notion and other
+                            tools to stay connected
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-6 m-auto">
+                    <h4 class="text-dark fw-500 mb-4">Our Values</h4>
+                    <p class="fs-14 m-0 p-0 my-3">
+                        <span class="fw-700">Work in the open:</span>
+                        <span class="text-muted">
+                            Operate with high integrity and choose what's right over what's easy. Be
+                            transparent as a company and with each other.
+                        </span>
+                    </p>
+                    <p class="fs-14 m-0 p-0 my-3">
+                        <span class="fw-700">People are People:</span>
+                        <span class="text-muted">
+                            Treat yourself, colleagues, and customers with dignity, empathy, and respect. Start from a
+                            presumption of positive intent.
+                        </span>
+                    </p>
+                    <p class="fs-14 m-0 p-0 my-3">
+                        <span class="fw-700">Win and grow together: </span>
+                        <span class="text-muted">
+                            Strive to be the best, individually, and as a team. Support and encourage each other. Seek
+                            opportunities for growth
+                        </span>
+                    </p>
+                    <p class="text-muted fs-14 m-0 p-0 my-3">
+                        We are hiring in the United States, Canada, Ireland, and the United Kingdom, and are interested
+                        in every qualified candidate who is eligible to work in these regions without employment visa
+                        sponsorship.
+                    </p>
+                    <p class="text-muted fs-14 m-0 p-0 my-3">
+                        Please refer to the position specific location requirements listed under the location section of
+                        the job description.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 m-auto">
+                    <div class="card rounded shadow" style="background-color: #F6F4F8 !important;">
+                        <div class="card-body p-5" style="background-color: #F6F4F8 !important;">
+                            <h5 class="text-dark fw-500 mb-4">Apply for this Job</h5>
+                            <div class="form-group">
+                                <label for="name" class="fs-14">First Name <span class="text-danger">*</span></label>
+                                <input type="text" name="name" id="name" class="form-control py-4"
+                                    placeholder="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name" class="fs-14">Last Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" name="last-name" id="last-name" class="form-control py-4"
+                                    placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="fs-14">Email <span class="text-danger">*</span></label>
+                                <input type="text" name="email" id="email" class="form-control py-4"
+                                    placeholder="hello@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="fs-14">Phone <span class="text-danger">*</span></label>
+                                <input type="text" name="phone" id="phone" class="form-control py-4" placeholder="+91">
+                            </div>
+                            <div class="form-group">
+                                <label for="file" class="fs-14">Resume/CV <span class="text-danger">*</span></label>
+                                <input type="file" name="file" id="file" class="w-100">
+                            </div>
+                            <div class="form-group">
+                                <label for="file-2" class="fs-14">Cover letter <span
+                                        class="text-danger">*</span></label>
+                                <input type="file" name="file" id="file" class="w-100">
+                            </div>
+                            <div class="form-group">
+                                <label for="text-area" class="fs-14">Why is Geeks important to you?</label>
+                                <textarea name="text-area" id="text-area" rows="4" class="form-control"
+                                    placeholder="type here..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary px-4 py-3">Submit Application</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5 py-5">
+                <section class="my-5" id="community">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/brand/logo/logo.svg"
+                                alt="">
+                            <p class="text-muted m-0 p-0 my-4 fs-14">
+                                Geek is feature-rich components and beautifully Bootstrap UIKit for developers,
+                                built with
+                                bootstrap responsive framework.
+                            </p>
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a href="#" class="text-muted">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a href="#" class="text-muted">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="text-muted">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-2 ml-auto mt-5 mt-lg-0">
+                            <h5 class="text-dark">Company</h5>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1 mt-3">About</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">Pricing</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">Blog</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">Careers</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">Contact</a>
+                        </div>
+                        <div class="col-6 col-lg-2 mt-5 mt-lg-0">
+                            <h5 class="text-dark">Support</h5>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1 mt-3">Help and Support</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">Become Instructor</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">Get the app</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">FAQ's</a>
+                            <a href="#" class="nav-link text-muted m-0 p-0 py-1">Tutorial</a>
+                        </div>
+                        <div class="col-lg-3 mt-5 mt-lg-0">
+                            <h5 class="text-dark">Get in touch</h5>
+                            <p class="text-muted m-0 p-0 mt-3 fs-14">339 McDermott Points Hettingerhaven, NV 15283
+                            </p>
+                            <br>
+                            <span class="text-muted fs-14">
+                                Email:
+                                <a href="#"
+                                    class="nav-link text-primary d-inline font-weight-normal m-0 p-0">support@geeksui.com</a>
+                            </span>
+                            <br>
+                            <span class="text-muted fs-14">
+                                Phone: <span class="text-dark fw-600">(000) 123 456 789</span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center border-top py-1">
+                <div class="col-lg-6">
+                    <span class="text-muted fs-14">
+                        © 2021 hsyntes. All Rights Reserved.
+                    </span>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="nav nav-footer justify-content-end">
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="nav-link text-muted fw-400">Privacy</a>
+                        <a href="../terms-condition/terms-condition.html" class="nav-link text-muted fw-400">Terms</a>
+                        <a href="#" class="nav-link text-muted fw-400">Feedback</a>
+                        <a href="#" class="nav-link text-muted fw-400">Support</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="../../JS/index/script.js"></script>
+</body>
+
+</html>

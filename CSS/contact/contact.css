@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #f5f4f8 !important;
+}
+
+@media (max-width: 992px) {
+  #contact-buttons {
+    position: static !important;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

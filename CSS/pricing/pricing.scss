@@ -1,0 +1,17 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+header {
+    height: 80vh !important;
+    .row {
+        height: 80vh !important;
+    }
+}
+
+main {
+    margin-top: -70px !important;
+}

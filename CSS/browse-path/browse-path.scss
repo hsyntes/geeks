@@ -1,0 +1,16 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+header {
+    background-color: $color-primary !important;
+}
+
+@media (max-width: 992px) {
+    #course-toolbar {
+        justify-content: start !important;
+    }
+}

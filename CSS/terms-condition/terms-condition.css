@@ -1,0 +1,13 @@
+body {
+  background-color: #fff !important;
+}
+
+main #community a {
+  -webkit-transition: all 0.2s ease-out !important;
+  transition: all 0.2s ease-out !important;
+}
+
+main #community a:hover {
+  color: #754ffe !important;
+}
+/*# sourceMappingURL=terms-condition.css.map */

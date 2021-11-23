@@ -1,0 +1,32 @@
+header {
+  background-color: #fff !important;
+}
+
+header #header-img {
+  height: 50vh !important;
+}
+
+header #header-img img {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  -o-object-position: center !important;
+     object-position: center !important;
+}
+
+header #header-sub {
+  margin-top: -80px !important;
+}
+
+header #header-sub .d-flex {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 540px) {
+  header #header-sub #header-social {
+    margin: auto !important;
+  }
+}
+/*# sourceMappingURL=instructor-profile.css.map */

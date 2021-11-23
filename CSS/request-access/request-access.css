@@ -1,0 +1,47 @@
+body {
+  background-color: #fff !important;
+}
+
+#analytics {
+  background: -webkit-gradient(linear, left top, right top, from(#fa5a70), to(#4850fd)) !important;
+  background: linear-gradient(90deg, #fa5a70 0%, #4850fd 100%) !important;
+  overflow: visible !important;
+  position: relative !important;
+}
+
+#analytics img {
+  position: absolute !important;
+  -webkit-transform: scale(0.9) !important;
+          transform: scale(0.9) !important;
+}
+
+@media (max-width: 768px) {
+  #analytics {
+    height: 280px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  #analytics {
+    height: 260px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #analytics {
+    height: 400px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  #analytics {
+    height: 540px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #analytics {
+    margin: 100px !important;
+  }
+}
+/*# sourceMappingURL=request-access.css.map */

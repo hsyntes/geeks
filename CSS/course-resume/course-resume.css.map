@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,KAAK,CAAC;IACF,MAAM,EAAE,gBAAgB;GAC3B",
+    "sources": [
+        "course-resume.scss"
+    ],
+    "names": [],
+    "file": "course-resume.css"
+}

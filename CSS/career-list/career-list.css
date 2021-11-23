@@ -1,0 +1,24 @@
+body {
+  background-color: #fff !important;
+}
+
+.header-img-300 {
+  height: 300px;
+  overflow: hidden;
+}
+
+.header-img-250 {
+  height: 250px;
+  overflow: hidden;
+}
+
+.header-img-300 img,
+.header-img-250 img {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  -o-object-position: center !important;
+     object-position: center !important;
+}
+/*# sourceMappingURL=career-list.css.map */

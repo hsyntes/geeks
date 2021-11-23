@@ -1,0 +1,81 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+body {
+    background-color: #fff !important;
+}
+
+main {
+    .container {
+        .geeksui-img {
+            .geeksui-col {
+                img {
+                    width: 100% !important;
+                    height: 100% !important;
+                    object-fit: cover !important;
+                    // object-position: center !important;
+                }
+            }
+        }
+        .user-tooltips {
+            position: relative !important;
+            .user-tooltips-content {
+                opacity: 0;
+                width: 140px;
+                height: 50px;
+                background-color: #fff;
+                box-shadow: 0px 0px 15px rgba($color: #000000, $alpha: 0.2);
+                position: absolute;
+                left: 50%;
+                top: -60%;
+                transform: translate(-50%, 0%);
+            }
+            &:hover .user-tooltips-content {
+                opacity: 1;
+                animation: user-tooltip-animation 0.5s ease-out;
+            }
+        }
+    }
+}
+
+#banner-row {
+    .row {
+        height: 400px !important;
+        #header-img {
+            position: relative !important;
+            img {
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #banner-row {
+        height: 100% !important;
+        #header-img {
+            text-align: center !important;
+            img {
+                width: 100% !important;
+                height: 100% !important;
+                margin-top: 50px !important;
+            }
+        }
+    }
+}
+
+@keyframes user-tooltip-animation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

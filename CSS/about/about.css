@@ -1,0 +1,82 @@
+body {
+  background-color: #fff !important;
+}
+
+main .container .geeksui-img .geeksui-col img {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+main .container .user-tooltips {
+  position: relative !important;
+}
+
+main .container .user-tooltips .user-tooltips-content {
+  opacity: 0;
+  width: 140px;
+  height: 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 50%;
+  top: -60%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+main .container .user-tooltips:hover .user-tooltips-content {
+  opacity: 1;
+  -webkit-animation: user-tooltip-animation 0.5s ease-out;
+          animation: user-tooltip-animation 0.5s ease-out;
+}
+
+#banner-row .row {
+  height: 400px !important;
+}
+
+#banner-row .row #header-img {
+  position: relative !important;
+}
+
+#banner-row .row #header-img img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  #banner-row {
+    height: 100% !important;
+  }
+  #banner-row #header-img {
+    text-align: center !important;
+  }
+  #banner-row #header-img img {
+    width: 100% !important;
+    height: 100% !important;
+    margin-top: 50px !important;
+  }
+}
+
+@-webkit-keyframes user-tooltip-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes user-tooltip-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=about.css.map */

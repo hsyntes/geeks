@@ -1,0 +1,1537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../CSS/body/body.css">
+    <link rel="stylesheet" href="../../CSS/nav/nav.css">
+    <link rel="stylesheet" href="../../CSS/card-course/card-course.css">
+    <link rel="stylesheet" href="../../CSS/fragment/fragment.css">
+    <link rel="stylesheet" href="../../CSS/footer/footer.css">
+    <link rel="stylesheet" href="../../CSS/course-list-grid/course-list-grid.css">
+    <link rel="icon" href="../../img/title/title-icon.svg">
+    <title>Course Filter | Geeks - Bootstrap 5 Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light align-items-center py-3 shadow">
+        <a href="../index/index.html" class="navbar-brand">
+            <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/brand/logo/logo.svg" alt="">
+        </a>
+        <div class="d-lg-none ml-auto">
+            <button class="btn btn-outline-primary rounded-circle btn-bell" data-toggle="dropdown">
+                <i class="fa fa-bell"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow" style="width: 100% !important;">
+                <div class="dropdown-bell-header d-flex align-items-center py-2 px-3">
+                    <h6 class="text-primary fw-500 m-0 p-0">Notifications</h6>
+                    <a href="#" class="text-primary ml-auto">
+                        <i class="fa fa-cog"></i>
+                    </a>
+                </div>
+                <div class="dropdown-bell-body py-2">
+                    <a href="#" class="d-flex align-items-start border-top border-bottom p-3">
+                        <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-2.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted fs-12 p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-3.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-4.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-5.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-mutedp-0 fs-12 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-6.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-7.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-8.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-9.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-10.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="dropdown-bell-footer py-0 px-3">
+                    <a href="#" class="d-block fw-500 m-0 p-0 py-2 text-primary">See
+                        All Notifications</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-lg-none mx-2">
+            <button class="btn p-0 btn-user" data-toggle="dropdown">
+                <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="38" alt="">
+                <i class="fa fa-circle text-success fa-xs"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow user-dropdown" style="width: 100%;">
+                <div class="dropdown-user-header d-flex align-items-center py-2 px-3">
+                    <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                    <div class="dropdown-user-header-text ml-3">
+                        <h6 class="fw-500 m-0 p-0">Annette Black</h6>
+                        <p class="text-muted fs-14 m-0 p-0">annette@geeksui.com</p>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-user-body">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item d-flex align-items-center py-2 px-3" data-toggle="dropdown"><i
+                                class="far fa-circle"></i>&nbsp;Status
+                            <span class="ml-auto text-muted">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown-menu rounded shadow" style="width: 100%;">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-success fa-sm"></i>&nbsp;Online
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-dark fa-sm"></i>&nbsp;Offline
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-warning fa-sm"></i>&nbsp;Warning
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-danger fa-sm"></i>&nbsp;Busy
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="far fa-user"></i>&nbsp;Profile</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i
+                            class="far fa-star"></i>&nbsp;Subscription</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="fas fa-cog"></i>&nbsp;Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item py-2 px-3"><i class="fas fa-power-off"></i>&nbsp;Sign Out</a>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-primary d-lg-none btn-bar" data-toggle="collapse"
+            data-target="#collapse-navbar-menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-navbar-menu">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item dropdown">
+                    <a href="#" id="browse"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Browse&nbsp;<i
+                            class="fa fa-angle-down text-muted ml-auto"></i></a>
+                    <div id="browse-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Web Development&nbsp;
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Bootstrap</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">React</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">GraphQl</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Gatsby</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Grunt</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Svelte</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Meteor</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">HTML5</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Angular</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Design
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Graphic
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Illustrator</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">UX / UI
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Figma Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Adobe XD</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Sketch</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Icon Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Photoshop</a>
+                            </div>
+                        </div>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Mobile App</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">IT Software</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Marketing</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Music</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Life Style</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Business</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Photography</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="landings"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Landings&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="#landings-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">LANDINGS</h6>
+                        <a href="../landing-course/landing-courses.html" class="dropdown-item">Courses</a>
+                        <a href="../lead-course/lead-course.html" class="dropdown-item">Lead Course</a>
+                        <a href="../request-access/request-access.html" class="dropdown-item">Request Access</a>
+                        <a href="../SaaS/saas.html" class="dropdown-item">
+                            SaaS
+                            <span class="badge badge-danger py-1">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="pages"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Pages&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="pages-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center ">
+                                Courses
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-single/course-single.html" class="dropdown-item">Course Signle</a>
+                                <a href="../course-single-v2/course-single-v2.html" class="dropdown-item">Course Signle
+                                    v2</a>
+                                <a href="../course-resume/course-resume.html" class="dropdown-item">Course Resume</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Course
+                                    Category</a>
+                                <a href="../course-checkout/course-checkout.html" class="dropdown-item">Course
+                                    Checkout</a>
+                                <a href="../course-list-grid/course-list-grid.html" class="dropdown-item">Course
+                                    List/Grid</a>
+                                <a href="#" class="dropdown-item">Add New Course</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Paths
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../browse-path/browse-path.html" class="dropdown-item">Browse Path</a>
+                                <a href="../path-single/path-single.html" class="dropdown-item">Path Single</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Blog
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../listing/listing.html" class="dropdown-item">Listing</a>
+                                <a href="../article/article.html" class="dropdown-item">Article</a>
+                                <a href="../blog-category/blog-category.html" class="dropdown-item">Category</a>
+                                <a href="../sidebar/sidebar.html" class="dropdown-item">Sidebar</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Career&nbsp;
+                                <span class="badge badge-danger">New</span>
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../overview/overview.html" class="dropdown-item">Overview</a>
+                                <a href="../career-list/career-list.html" class="dropdown-item">Listing</a>
+                                <a href="../opening/opening.html" class="dropdown-item">Opening</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Specialty
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../coming-soon/coming-soon.html" class="dropdown-item">Coming Soon</a>
+                                <a href="../error-404/error-404.html" class="dropdown-item">Error 404</a>
+                                <a href="../maintanence/maintanence.html" class="dropdown-item">Maintenance Mode</a>
+                                <a href="../terms-condition/terms-condition.html" class="dropdown-item">Terms &
+                                    Conditions</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../about/about.html" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Help Center</a>
+                        <a href="../pricing/pricing.html" class="dropdown-item">Pricing</a>
+                        <a href="../compare-plan/compare-plan.html" class="dropdown-item">
+                            Compare Plan
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                        <a href="../contact/contact.html" class="dropdown-item">
+                            Contact
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a id="accounts" href="#"
+                        class="nav-link d-flex align-items-center dropdown-link text-dark">Accounts&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="accounts-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">ACCOUNTS</h6>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Instructor
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="instructor-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">INSTRUCTOR</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Instructor dashboard for manage courses and earning.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../instructor-dashboard/instructor-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../instructor-profile/instructor-profile.html"
+                                    class="dropdown-item">Profile</a>
+                                <a href="../instructor-courses/instructor-courses.html" class="dropdown-item">My
+                                    Courses</a>
+                                <a href="../instructor-orders/instructor-orders.html" class="dropdown-item">Orders</a>
+                                <a href="../instructor-reviews/instructor-reviews.html"
+                                    class="dropdown-item">Reviews</a>
+                                <a href="../instructor-students/instructor-students.html"
+                                    class="dropdown-item">Students</a>
+                                <a href="../instructor-payout/instructor-payout.html" class="dropdown-item">Payouts</a>
+                                <a href="../instructor-earning/instructor-earning.html"
+                                    class="dropdown-item">Earning</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Students
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="students-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">STUDENTS</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Students dashboard to manage your courses and subscriptions.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../students-subscriptions/students-subscriptions.html"
+                                    class="dropdown-item">Subscriptions</a>
+                                <a href="../students-payment/students-payment.html" class="dropdown-item">Payments</a>
+                                <a href="../students-billing-info/students-billing-info.html"
+                                    class="dropdown-item">Billing Info</a>
+                                <a href="../students-invoice/students-invoice.html" class="dropdown-item">Invoice</a>
+                                <a href="../students-invoice-details/students-invoice-details.html"
+                                    class="dropdown-item">Invoice Details</a>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Bookmarked</a>
+                                <a href="../students-dashboard/students-dashboard.html" class="dropdown-item">My
+                                    Path</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Admin
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="admin-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">MASTER ADMIN</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Master admin dashboard to manage courses, user, site setting , and work with amazing
+                                    apps.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary m-2">Go to Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../sign-in/sign-in.html" class="dropdown-item">Sign In</a>
+                        <a href="../sign-up/sign-up.html" class="dropdown-item">Sign Up</a>
+                        <a href="../forget-password/forget-password.html" class="dropdown-item">Forgot Password</a>
+                        <a href="../students-edit-profile/students-edit-profile.html" class="dropdown-item">Edit
+                            Profile</a>
+                        <a href="../students-security/students-security.html" class="dropdown-item">Security</a>
+                        <a href="../students-social-profiles/students-social-profiles.html" class="dropdown-item">Social
+                            Profiles</a>
+                        <a href="../students-notifications/students-notifications.html"
+                            class="dropdown-item">Notifications</a>
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="dropdown-item">Privacy Settings</a>
+                        <a href="../students-delete-profile/students-delete-profile.html" class="dropdown-item">Delete
+                            Profile</a>
+                        <a href="../students-linked-accounts/students-linked-accounts.html" class="dropdown-item">Linked
+                            Accounts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="ellipsis" class="nav-link d-flex align-items-center dropdown-link text-dark"><i
+                            class="fa fa-ellipsis-h font-weight-normal"></i>&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="ellipsis-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <a href="../terms-condition/terms-condition.html"
+                            class="dropdown-item d-flex align-items-center py-3">
+                            <i class="far fa-file-alt fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Documentations</h6>
+                                <p class="text-muted p-0 m-0">Browse the all documentation</p>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item d-flex align-items-center py-3">
+                            <i class="fas fa-code-branch fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Changelog <span class="text-primary">v2.2.0</span>
+                                </h6>
+                                <p class="text-muted p-0 m-0">See what's new</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item mt-3 mt-lg-0">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary px-3">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <input type="text" class="form-control border-primary" placeholder="Search Courses"
+                            style="height: 50px !important;">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown dropleft d-none d-lg-block">
+            <button class="btn btn-outline-primary rounded-circle btn-bell" data-toggle="dropdown">
+                <i class="fa fa-bell"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow bell-dropdown mt-5" style="width: 350px !important;">
+                <div class="dropdown-bell-header d-flex align-items-center py-2 px-3">
+                    <h6 class="text-primary fw-500 m-0 p-0">Notifications</h6>
+                    <a href="#" class="text-primary ml-auto">
+                        <i class="fa fa-cog"></i>
+                    </a>
+                </div>
+                <div class="dropdown-bell-body py-2">
+                    <a href="#" class="d-flex align-items-start border-top border-bottom p-3">
+                        <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-2.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-3.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-4.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-5.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Kristin Watson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Kristin Watson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;2 hours ago, 2:19 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-6.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Brooklyn Simmons</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Just launched a new Courses React for Beginner.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:20 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-7.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-5-- p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-8.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class=" text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-9.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Jenny Wilson</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                Jenny Wilson like your comment on course JavaScript Introduction!
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-comments text-primary"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="d-flex align-items-start border-bottom p-3">
+                        <img src="../../img/users/avatar-10.jpg" class="rounded-circle" width="36" alt="">
+                        <div class="dropdown-bell-body-text ml-3">
+                            <h6 class="text-dark fw-500 p-0 m-0">Sina Ray</h6>
+                            <p class="text-muted p-0 m-0 mt-1">
+                                You earn new certificate for complete the JavaScript Beginner course.
+                            </p>
+                            <p class="text-muted fs-12 p-0 m-0 mt-3">
+                                <i class="fas fa-thumbs-up text-success"></i>&nbsp;Oct 9, 1:56 PM
+                            </p>
+                        </div>
+                        <span class="text-muted ml-auto">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="dropdown-bell-footer py-0 px-3">
+                    <a href="#" class="d-block fw-500 m-0 p-0 py-2 text-primary">See
+                        All Notifications</a>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown dropleft d-none d-lg-block ml-2">
+            <button class="btn p-0 btn-user" data-toggle="dropdown">
+                <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="38" alt="">
+                <i class="fa fa-circle text-success fa-xs"></i>
+            </button>
+            <div class="dropdown-menu rounded shadow mt-5 user-dropdown">
+                <div class="dropdown-user-header d-flex align-items-center py-2 px-3">
+                    <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="36" alt="">
+                    <div class="dropdown-user-header-text ml-3">
+                        <h6 class="fw-500 m-0 p-0">Annette Black</h6>
+                        <p class="text-muted fs-14 m-0 p-0">annette@geeksui.com</p>
+                    </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="dropdown-user-body">
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item d-flex align-items-center py-2 px-3" data-toggle="dropdown"><i
+                                class="far fa-circle"></i>&nbsp;Status
+                            <span class="ml-auto text-muted">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown-menu rounded shadow">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-success fa-sm"></i>&nbsp;Online
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-circle text-dark fa-sm"></i>&nbsp;Offline
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-warning fa-sm"></i>&nbsp;Warning
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fa fa-circle text-danger fa-sm"></i>&nbsp;Busy
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="far fa-user"></i>&nbsp;Profile</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i
+                            class="far fa-star"></i>&nbsp;Subscription</a>
+                    <a href="#" class="dropdown-item p-0 m-0 py-2 px-3"><i class="fas fa-cog"></i>&nbsp;Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item py-2 px-3"><i class="fas fa-power-off"></i>&nbsp;Sign Out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="p-5">
+        <h1 class="text-light fw-600">Filter Page</h1>
+    </header>
+
+    <main class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mr-lg-auto">
+                    <h6 class="text-dark fw-500 m-0 p-0">Displaying 9 out of 68 courses</h6>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-end my-3 my-lg-0" id="course-toolbar">
+                    <div class="btn-group">
+                        <button class="btn btn-outline-primary btn-fragment-category-list-active" id="btn-category">
+                            <i class="fas fa-th-large fa-xs"></i>
+                        </button>
+                        <button class="btn btn-outline-primary" id="btn-list">
+                            <i class="fas fa-th-list fa-xs"></i>
+                        </button>
+                    </div>
+                    <select name="sort" id="sort" class="form-control text-muted ml-2" style="width: 20% !important;">
+                        <option value="1">Sort by</option>
+                        <option value="2">Newest</option>
+                        <option value="3">Free</option>
+                        <option value="4">Most Popular</option>
+                        <option value="5">Highest Rated</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row align-items-start my-5">
+                <div class="col-lg-3">
+                    <div class="card rounded shadow bg-light">
+                        <div class="card-header rounded border-0 bg-light">
+                            <h6 class="card-title fw-500 m-0 p-1">Filter</h6>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <div class="card-body bg-light py-4">
+                            <h6 class="text-muted fw-500 fs-12 my-3">CATEGORY</h6>
+                            <input type="checkbox" name="react" id="react">
+                            <label for="react" class="text-muted fs-14">React</label>
+                            <br>
+                            <input type="checkbox" name="javascript" id="javascript">
+                            <label for="javascript" class="text-muted fs-14">JavaScript</label>
+                            <br>
+                            <input type="checkbox" name="angular" id="angular">
+                            <label for="angular" class="text-muted fs-14">Angular</label>
+                            <br>
+                            <input type="checkbox" name="node" id="node">
+                            <label for="node" class="text-muted fs-14">Node</label>
+                            <br>
+                            <input type="checkbox" name="angular-js" id="angular-js">
+                            <label for="angular-js" class="text-muted fs-14">Angular JS</label>
+                            <br>
+                            <input type="checkbox" name="gatsby" id="gatsby">
+                            <label for="gatsby" class="text-muted fs-14">Gatsby</label>
+                            <br>
+                            <input type="checkbox" name="graphQL" id="graphQL">
+                            <label for="graphQL" class="text-muted fs-14">GraphQL</label>
+                            <br>
+                            <input type="checkbox" name="vue" id="vue">
+                            <label for="vue" class="text-muted fs-14">VueJS</label>
+                            <br>
+                            <input type="checkbox" name="bootstrap" id="bootstrap">
+                            <label for="bootstrap" class="text-muted fs-14">Bootstrap</label>
+                            <br>
+                            <input type="checkbox" name="figma" id="figma">
+                            <label for="figma" class="text-muted fs-14">Figma</label>
+                            <br>
+                            <input type="checkbox" name="sketch" id="sketch">
+                            <label for="sketch" class="text-muted fs-14">Sketch</label>
+                            <br>
+                            <input type="checkbox" name="html" id="html">
+                            <label for="html" class="text-muted fs-14">HTML5</label>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <div class="card-footer rounded shadow border-0 bg-light py-4">
+                            <h6 class="text-muted fw-500 fs-12 my-3">RATINGS</h6>
+                            <div class="form-group">
+                                <div class="form-check d-flex align-items-center pl-0">
+                                    <input type="radio" name="4-5" id="4-5">
+                                    <label for="4-5" class="text-muted fs-14 mt-1 ml-1">
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <span class="text-muted fs-12">4.5 & UP</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center pl-0">
+                                    <input type="radio" name="4-5" id="4-0">
+                                    <label for="4-0" class="text-muted fs-14 mt-1 ml-1">
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <span class="text-muted fs-12">4.0 & UP</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center pl-0">
+                                    <input type="radio" name="4-5" id="3-5">
+                                    <label for="3-5" class="text-muted fs-14 mt-1 ml-1">
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <span class="text-muted fs-12">3.5 & UP</span>
+                                    </label>
+                                </div>
+                                <div class="form-check d-flex align-items-center pl-0">
+                                    <input type="radio" name="4-5" id="3-0">
+                                    <label for="3-0" class="text-muted fs-14 mt-1 ml-1">
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <i class="fa fa-star fa-xs" style="color: orange;"></i>
+                                        <span class="text-muted fs-12">3.0 & UP</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="m-0 p-0">
+                        <div class="card-footer rounded shadow border-0 bg-light pt-4">
+                            <h6 class="text-muted fw-500 fs-12 my-3">SKILL LEVEL</h6>
+                            <div class="form-group">
+                                <div class="form-check pl-0">
+                                    <input type="checkbox" name="all-level" id="all-level">
+                                    <label for="all-level" class="text-muted fs-14">All level</label>
+                                </div>
+                                <div class="form-check pl-0">
+                                    <input type="checkbox" name="beginner" id="beginner">
+                                    <label for="beginner" class="text-muted fs-14">Beginner</label>
+                                </div>
+                                <div class="form-check pl-0">
+                                    <input type="checkbox" name="intermediate" id="intermediate">
+                                    <label for="intermediate" class="text-muted fs-14">Intermediate</label>
+                                </div>
+                                <div class="form-check pl-0">
+                                    <input type="checkbox" name="advance" id="advance">
+                                    <label for="advance" class="text-muted fs-14">Advance</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 d-block" id="category-courses">
+                    <div class="row card-course mb-5 mt-5 mt-lg-0">
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-react.jpg" class="card-img-top rounded-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        How to easily create a website with React
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;3h 56m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Beginner</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(7,700)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Morris Mccoy</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-graphql.jpg" class="card-img-top rounded-top"
+                                        alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        GraphQL: introduction to graphQL for beginners
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;2h 46m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Advance</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(9,300)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-2.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Ted Hawkins</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-angular.jpg" class="card-img-top rounded-top"
+                                        alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        Angular - The complete guide for beginner
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;1h 30m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Beginner</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(8,890)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-3.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Junita Bell</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row card-course my-5">
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-python.jpg" class="card-img-top rounded-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        The Python Course: build web application
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;2h 30m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Intermediate</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(13,245)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-4.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Claire
+                                        Robertson</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-gatsby.jpg" class="card-img-top rounded-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        Gatsby JS: build blog with GraphQL and React
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;3h 56m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Beginner</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(9,370)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-5.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Morris Mccoy</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-javascript.jpg" class="card-img-top rounded-top"
+                                        alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        Getting Started with JavaScript
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;2h 46m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Advance</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(5,245)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-6.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Ted Hawkins</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row card-course my-5">
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-css.jpg" class="card-img-top rounded-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        CSS: ultimate CSS course from beginner to advanced
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;1h 30m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Beginner</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(17,000)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-7.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Junita Bell</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-wordpress.jpg" class="card-img-top rounded-top"
+                                        alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        Wordpress: complete WordPress theme & plugin
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;2h 30m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Intermediate</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(16,500)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-8.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Claire
+                                        Robertson</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card rounded shadow mb-4 mb-lg-0">
+                                <a href="#">
+                                    <img src="../../img/main/course-node.jpg" class="card-img-top rounded-top" alt="">
+                                </a>
+                                <div class="card-body">
+                                    <a href="#" class="text-dark card-title d-block fs-16">
+                                        Node.js Tutorials - For beginners and
+                                    </a>
+                                    <p class="text-muted fs-14">
+                                        <i class="fas fa-clock"></i>&nbsp;3h 56m&nbsp;&nbsp;<i
+                                            class="fas fa-signal fa-sm text-primary"></i>&nbsp;<span
+                                            class="text-primary">Beginner</span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 mb-0 mb-0"
+                                        style="color: orange !important;">
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        <i class="fas fa-star mr-1 fa-xs"></i>
+                                        4.5&nbsp;<span class="text-muted"><small>(12,245)</small></span>
+                                    </p>
+                                </div>
+                                <div class="card-footer d-flex align-items-center">
+                                    <img src="../../img/users/avatar-9.jpg" class="rounded-circle" width="24" alt="">
+                                    <span class="text-muted fs-14 ml-2">Morris
+                                        Mccoy</span>
+                                    <a href="#" class="text-muted ml-auto" data-toggle="tooltip" title="Add Bookmark"><i
+                                            class="fa fa-bookmark fa-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 d-none card-course" id="list-courses">
+                    <div class="card rounded shadow bg-light mb-4 mt-4 mt-lg-0">
+                        <div class="card-body p-0">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <a href="#">
+                                        <img src="../../img/main/course-vue.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+                                <div class="col-lg-8 px-5 py-4 py-lg-0 px-lg-0 pr-lg-5">
+                                    <a href="#" class="text-dark fs-20">Vue.js Components Fundamentals</a>
+                                    <p class="text-muted fs-14 m-0 p-0 mb-4 mt-2">
+                                        <span>
+                                            <i class="fas fa-clock"></i>
+                                            <span>3h 56m</span>
+                                        </span>
+                                        <span class="text-primary ml-2">
+                                            <i class="fa fa-signal"></i>
+                                            <span>Beginner</span>
+                                        </span>
+                                        <span class="ml-2" style="color: orange !important;">
+                                            <span>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                            </span>
+                                            <span>
+                                                4.5 <span class="text-muted fs-12">(9,300)</span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 m-0 p-0">
+                                        <img src="../../img/users/avatar-3.jpg" width="24" class="rounded-circle">
+                                        <span class="ml-2">
+                                            Morris Mccoy
+                                        </span>
+                                        <span class="ml-auto">
+                                            <i class="fa fa-bookmark" data-toggle="tooltip" data-placement="top"
+                                                title="Add Bookmark" style="cursor: pointer;"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded shadow bg-light my-4">
+                        <div class="card-body p-0">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <a href="#">
+                                        <img src="../../img/main/course-bootstrap.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+                                <div class="col-lg-8 px-5 py-4 py-lg-0 px-lg-0 pr-lg-5">
+                                    <a href="#" class="text-dark fs-20">Bootstrap 5 Beginner Tutorial</a>
+                                    <p class="text-muted fs-14 m-0 p-0 mb-4 mt-2">
+                                        <span>
+                                            <i class="fas fa-clock"></i>
+                                            <span>2h 46m</span>
+                                        </span>
+                                        <span class="text-primary ml-2">
+                                            <i class="fa fa-signal"></i>
+                                            <span>Advance</span>
+                                        </span>
+                                        <span class="ml-2" style="color: orange !important;">
+                                            <span>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                            </span>
+                                            <span>
+                                                4.5 <span class="text-muted fs-12">(7,900)</span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 m-0 p-0">
+                                        <img src="../../img/users/avatar-2.jpg" width="24" class="rounded-circle">
+                                        <span class="ml-2">
+                                            Ted Hawkins
+                                        </span>
+                                        <span class="ml-auto">
+                                            <i class="fa fa-bookmark" data-toggle="tooltip" data-placement="top"
+                                                title="Add Bookmark" style="cursor: pointer;"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded shadow bg-light my-4">
+                        <div class="card-body p-0">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <a href="#">
+                                        <img src="../../img/main/course-graphql.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+                                <div class="col-lg-8 px-5 py-4 py-lg-0 px-lg-0 pr-lg-5">
+                                    <a href="#" class="text-dark fs-20">Getting Started With GraphQL.js</a>
+                                    <p class="text-muted fs-14 m-0 p-0 mb-4 mt-2">
+                                        <span>
+                                            <i class="fas fa-clock"></i>
+                                            <span>1h 30m</span>
+                                        </span>
+                                        <span class="text-primary ml-2">
+                                            <i class="fa fa-signal"></i>
+                                            <span>Beginner</span>
+                                        </span>
+                                        <span class="ml-2" style="color: orange !important;">
+                                            <span>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                            </span>
+                                            <span>
+                                                4.5 <span class="text-muted fs-12">(8,245)</span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 m-0 p-0">
+                                        <img src="../../img/users/avatar-4.jpg" width="24" class="rounded-circle">
+                                        <span class="ml-2">
+                                            Junita Bell
+                                        </span>
+                                        <span class="ml-auto">
+                                            <i class="fa fa-bookmark" data-toggle="tooltip" data-placement="top"
+                                                title="Add Bookmark" style="cursor: pointer;"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded shadow bg-light my-4">
+                        <div class="card-body p-0">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <a href="#">
+                                        <img src="../../img/main/course-react.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+                                <div class="col-lg-8 px-5 py-4 py-lg-0 px-lg-0 pr-lg-5">
+                                    <a href="#" class="text-dark fs-20">The Beginner's Guide to React</a>
+                                    <p class="text-muted fs-14 m-0 p-0 mb-4 mt-2">
+                                        <span>
+                                            <i class="fas fa-clock"></i>
+                                            <span>2h 30m</span>
+                                        </span>
+                                        <span class="text-primary ml-2">
+                                            <i class="fa fa-signal"></i>
+                                            <span>Intermediate</span>
+                                        </span>
+                                        <span class="ml-2" style="color: orange !important;">
+                                            <span>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                            </span>
+                                            <span>
+                                                4.5 <span class="text-muted fs-12">(3,200)</span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 m-0 p-0">
+                                        <img src="../../img/users/avatar-5.jpg" width="24" class="rounded-circle">
+                                        <span class="ml-2">
+                                            Claire Robertson
+                                        </span>
+                                        <span class="ml-auto">
+                                            <i class="fa fa-bookmark" data-toggle="tooltip" data-placement="top"
+                                                title="Add Bookmark" style="cursor: pointer;"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded shadow bg-light my-4">
+                        <div class="card-body p-0">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <a href="#">
+                                        <img src="../../img/main/course-javascript.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+                                <div class="col-lg-8 px-5 py-4 py-lg-0 px-lg-0 pr-lg-5">
+                                    <a href="#" class="text-dark fs-20">Applying JavaScript and using the console</a>
+                                    <p class="text-muted fs-14 m-0 p-0 mb-4 mt-2">
+                                        <span>
+                                            <i class="fas fa-clock"></i>
+                                            <span>1h 30m</span>
+                                        </span>
+                                        <span class="text-primary ml-2">
+                                            <i class="fa fa-signal"></i>
+                                            <span>Beginner</span>
+                                        </span>
+                                        <span class="ml-2" style="color: orange !important;">
+                                            <span>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                            </span>
+                                            <span>
+                                                4.5 <span class="text-muted fs-12">(6,600)</span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 m-0 p-0">
+                                        <img src="../../img/users/avatar-10.jpg" width="24" class="rounded-circle">
+                                        <span class="ml-2">
+                                            Ted Hawkins
+                                        </span>
+                                        <span class="ml-auto">
+                                            <i class="fa fa-bookmark" data-toggle="tooltip" data-placement="top"
+                                                title="Add Bookmark" style="cursor: pointer;"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded shadow bg-light mt-4">
+                        <div class="card-body p-0">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <a href="#">
+                                        <img src="../../img/main/course-node.jpg" class="card-img-top">
+                                    </a>
+                                </div>
+                                <div class="col-lg-8 px-5 py-4 py-lg-0 px-lg-0 pr-lg-5">
+                                    <a href="#" class="text-dark fs-20">Noje.js Tutorials - For beginners and
+                                        professionals</a>
+                                    <p class="text-muted fs-14 m-0 p-0 mb-4 mt-2">
+                                        <span>
+                                            <i class="fas fa-clock"></i>
+                                            <span>1h 30m</span>
+                                        </span>
+                                        <span class="text-primary ml-2">
+                                            <i class="fa fa-signal"></i>
+                                            <span>Beginner</span>
+                                        </span>
+                                        <span class="ml-2" style="color: orange !important;">
+                                            <span>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                                <i class="fa fa-star fa-xs"></i>
+                                            </span>
+                                            <span>
+                                                4.5 <span class="text-muted fs-12">(2,700)</span>
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="d-flex align-items-center text-muted fs-14 m-0 p-0">
+                                        <img src="../../img/users/avatar-6.jpg" width="24" class="rounded-circle">
+                                        <span class="ml-2">
+                                            Sumona Khaat
+                                        </span>
+                                        <span class="ml-auto">
+                                            <i class="fa fa-bookmark" data-toggle="tooltip" data-placement="top"
+                                                title="Add Bookmark" style="cursor: pointer;"></i>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center border-top py-1">
+                <div class="col-lg-6">
+                    <span class="text-muted fs-14">
+                        © 2021 hsyntes. All Rights Reserved.
+                    </span>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="nav nav-footer justify-content-end">
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="nav-link text-muted fw-400">Privacy</a>
+                        <a href="../terms-condition/terms-condition.html" class="nav-link text-muted fw-400">Terms</a>
+                        <a href="#" class="nav-link text-muted fw-400">Feedback</a>
+                        <a href="#" class="nav-link text-muted fw-400">Support</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="../../JS/index/script.js"></script>
+    <script src="../../JS/course-list-grid/course-list-grid.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAEQ,UAFE,CACN,CAAC,AACI,MAAM,EAFf,UAAU,CACN,CAAC,AAEI,OAAO,CAAC;EACL,KAAK,EAVD,OAAO,CAUW,UAAU;CACnC;;AALT,AAQQ,UARE,CAON,MAAM,AACD,MAAM,CAAC;EACJ,MAAM,EAAE,GAAG,CAAC,KAAK,CAAc,mBAAI,CAAgB,UAAU;CAChE",
+    "sources": [
+        "accordion.scss"
+    ],
+    "names": [],
+    "file": "accordion.css"
+}

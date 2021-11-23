@@ -1,0 +1,165 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+.navbar {
+    background-color: $color-dark !important;
+    a.nav-link {
+        &:hover {
+            color: #fff !important;
+        }
+    }
+    .btn-bar {
+        &:focus,
+        &:active {
+            background-color: #fff !important;
+            color: $color-primary !important;
+        }
+    }
+}
+
+header {
+    background-color: $color-dark !important;
+    .row {
+        align-items: center;
+        .card {
+            overflow: hidden !important;
+            .btn-accounts {
+                &:hover {
+                    border: 1px solid rgba($color: #000, $alpha: 0.25) !important;
+                }
+            }
+        }
+    }
+}
+
+main {
+    .card-description-img {
+        background-color: $color-primary;
+        width: 64px;
+        height: 64px;
+        position: relative;
+        img {
+            position: absolute;
+            width: 64px !important;
+            height: 64px !important;
+            object-fit: cover;
+            object-position: center;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    #testimonials {
+        .card {
+            .card-footer {
+                // background-color: $color-primary !important;
+                position: relative;
+                img {
+                    position: absolute;
+                    top: -35%;
+                    left: 50%;
+                    transform: translate(-50%, 0%);
+                    border: 4px solid $color-primary !important;
+                }
+            }
+        }
+    }
+    // #accordion {
+    //     a {
+    //         &:focus,
+    //         &:active {
+    //             color: $color-primary !important;
+    //         }
+    //     }
+    //     button {
+    //         &:hover {
+    //             border: 1px solid rgba($color: #000, $alpha: 0.25) !important;
+    //         }
+    //     }
+    // }
+    #offer {
+        height: 400px;
+        background-color: $color-dark;
+        .row {
+            height: 400px !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+    }
+    #community {
+        a {
+            transition: all 0.2s ease-out !important;
+            &:hover {
+                color: $color-primary !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        height: 100% !important;
+        .row {
+            height: 100% !important;
+            text-align: center !important;
+            .card {
+                width: 100% !important;
+                margin: auto !important;
+                margin-top: 50px !important;
+                button {
+                    display: block !important;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+    #header-sub {
+        #header-sub-2 {
+            justify-content: end !important;
+        }
+
+        #header-sub-3 {
+            justify-content: start !important;
+        }
+
+        #header-sub-4 {
+            justify-content: end !important;
+        }
+    }
+    main {
+        #your-instructor {
+            #row-your-instructor {
+                padding: 0 !important;
+                flex-direction: column-reverse !important;
+                #your-instrcutor-img {
+                    margin-bottom: 50px !important;
+                }
+                .col-lg-6 {
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+    #offer {
+        a {
+            display: block !important;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #header-sub {
+        #header-sub-2 {
+            justify-content: start !important;
+        }
+
+        #header-sub-4 {
+            justify-content: start !important;
+        }
+    }
+}

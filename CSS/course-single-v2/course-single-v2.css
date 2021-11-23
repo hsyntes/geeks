@@ -1,0 +1,28 @@
+.btn-fragment:hover {
+  color: #754ffe !important;
+  border-top: 1px solid #754ffe !important;
+}
+
+.btn-fragment-active {
+  color: #754ffe !important;
+  border-top: 1px solid #754ffe !important;
+}
+
+@-webkit-keyframes fragment-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fragment-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=course-single-v2.css.map */

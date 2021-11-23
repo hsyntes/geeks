@@ -1,0 +1,28 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+.btn-fragment {
+    &:hover {
+        color: $color-primary !important;
+        border-top: 1px solid $color-primary !important;
+    }
+}
+
+.btn-fragment-active {
+    color: $color-primary !important;
+    border-top: 1px solid $color-primary !important;
+}
+
+@keyframes fragment-fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

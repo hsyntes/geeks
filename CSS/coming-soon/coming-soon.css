@@ -1,0 +1,14 @@
+body {
+  background-color: #fff !important;
+}
+
+@media (max-width: 992px) {
+  header .row {
+    margin: auto !important;
+  }
+  header .row .input-group button {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=coming-soon.css.map */

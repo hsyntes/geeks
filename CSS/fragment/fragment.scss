@@ -1,0 +1,56 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+.btn-fragment {
+    &:hover {
+        color: $color-primary !important;
+        border-bottom: 1px solid $color-primary !important;
+    }
+}
+
+.btn-fragment-active {
+    color: $color-primary !important;
+    border-bottom: 1px solid $color-primary !important;
+}
+
+.btn-fragment-category-list-active {
+    background-color: $color-primary;
+    color: #fff !important;
+}
+
+@keyframes fragment-fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+// @keyframes fragment-negative {
+//     0% {
+//         transform: translateX(-2%);
+//         opacity: 0;
+//     }
+
+//     100% {
+//         transform: translateX(0%);
+//         opacity: 1;
+//     }
+// }
+
+// @keyframes fragment-positive {
+//     0% {
+//         transform: translateX(2%);
+//         opacity: 0;
+//     }
+
+//     100% {
+//         transform: translateX(0%);
+//         opacity: 1;
+//     }
+// }

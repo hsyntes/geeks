@@ -1,0 +1,13 @@
+body {
+  background-color: #fff !important;
+}
+
+@media (max-width: 992px) {
+  .card-course .row .col-lg-8 {
+    height: auto !important;
+  }
+  .card-course .row .col-lg-8 a {
+    height: auto !important;
+  }
+}
+/*# sourceMappingURL=listing.css.map */

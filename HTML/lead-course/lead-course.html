@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../CSS/body/body.css">
+    <link rel="stylesheet" href="../../CSS/nav/nav.css">
+    <link rel="stylesheet" href="../../CSS/fragment/fragment.css">
+    <link rel="stylesheet" href="../../CSS/card-course/card-course.css">
+    <link rel="stylesheet" href="../../CSS/accordion/accordion.css">
+    <link rel="stylesheet" href="../../CSS/footer/footer.css">
+    <link rel="stylesheet" href="../../CSS/lead-course/lead-course.css">
+    <link rel="icon" href="../../img/title/title-icon.svg">
+    <title>Course Lead | Geeks - Bootstrap 5 Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light align-items-center py-3">
+        <a href="../index/index.html" class="navbar-brand">
+            <img src="../../img/logo/logo-light.svg" alt="">
+        </a>
+        <button class="btn btn-outline-light d-lg-none btn-bar" data-toggle="collapse"
+            data-target="#collapse-navbar-menu">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-navbar-menu">
+            <ul class="navbar-nav align-items-center">
+                <li class="nav-item dropdown">
+                    <a href="#" id="browse"
+                        class="nav-link d-flex align-items-center dropdown-link text-muted">Browse&nbsp;<i
+                            class="fa fa-angle-down text-muted ml-auto"></i></a>
+                    <div id="browse-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Web Development&nbsp;
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Bootstrap</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">React</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">GraphQl</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Gatsby</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Grunt</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Svelte</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Meteor</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">HTML5</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Angular</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Design
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-category/course-category.html" class="dropdown-item">Graphic
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Illustrator</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">UX / UI
+                                    Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Figma Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Adobe XD</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Sketch</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Icon Design</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Photoshop</a>
+                            </div>
+                        </div>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Mobile App</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">IT Software</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Marketing</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Music</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Life Style</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Business</a>
+                        <a href="../course-category/course-category.html" class="dropdown-item">Photography</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="landings"
+                        class="nav-link d-flex align-items-center dropdown-link text-muted">Landings&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="#landings-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">LANDINGS</h6>
+                        <a href="../landing-course/landing-courses.html" class="dropdown-item">Courses</a>
+                        <a href="../lead-course/lead-course.html" class="dropdown-item">Lead Course</a>
+                        <a href="../request-access/request-access.html" class="dropdown-item">Request Access</a>
+                        <a href="../SaaS/saas.html" class="dropdown-item">
+                            SaaS
+                            <span class="badge badge-danger py-1">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="pages"
+                        class="nav-link d-flex align-items-center dropdown-link text-muted">Pages&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="pages-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center ">
+                                Courses
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../course-single/course-single.html" class="dropdown-item">Course Signle</a>
+                                <a href="../course-single-v2/course-single-v2.html" class="dropdown-item">Course Signle
+                                    v2</a>
+                                <a href="../course-resume/course-resume.html" class="dropdown-item">Course Resume</a>
+                                <a href="../course-category/course-category.html" class="dropdown-item">Course
+                                    Category</a>
+                                <a href="../course-checkout/course-checkout.html" class="dropdown-item">Course
+                                    Checkout</a>
+                                <a href="../course-list-grid/course-list-grid.html" class="dropdown-item">Course
+                                    List/Grid</a>
+                                <a href="#" class="dropdown-item">Add New Course</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Paths
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../browse-path/browse-path.html" class="dropdown-item">Browse Path</a>
+                                <a href="../path-single/path-single.html" class="dropdown-item">Path Single</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Blog
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../listing/listing.html" class="dropdown-item">Listing</a>
+                                <a href="../article/article.html" class="dropdown-item">Article</a>
+                                <a href="../blog-category/blog-category.html" class="dropdown-item">Category</a>
+                                <a href="../sidebar/sidebar.html" class="dropdown-item">Sidebar</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Career&nbsp;
+                                <span class="badge badge-danger">New</span>
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../overview/overview.html" class="dropdown-item">Overview</a>
+                                <a href="../career-list/career-list.html" class="dropdown-item">Listing</a>
+                                <a href="../opening/opening.html" class="dropdown-item">Opening</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Specialty
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu rounded shadow">
+                                <a href="../coming-soon/coming-soon.html" class="dropdown-item">Coming Soon</a>
+                                <a href="../error-404/error-404.html" class="dropdown-item">Error 404</a>
+                                <a href="../maintanence/maintanence.html" class="dropdown-item">Maintenance Mode</a>
+                                <a href="../terms-condition/terms-condition.html" class="dropdown-item">Terms &
+                                    Conditions</a>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../about/about.html" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Help Center</a>
+                        <a href="../pricing/pricing.html" class="dropdown-item">Pricing</a>
+                        <a href="../compare-plan/compare-plan.html" class="dropdown-item">
+                            Compare Plan
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                        <a href="../contact/contact.html" class="dropdown-item">
+                            Contact
+                            <span class="badge badge-danger">New</span>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a id="accounts" href="#"
+                        class="nav-link d-flex align-items-center dropdown-link text-muted">Accounts&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="accounts-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <h6 class="dropdown-header fw-500">ACCOUNTS</h6>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Instructor
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="instructor-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">INSTRUCTOR</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Instructor dashboard for manage courses and earning.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../instructor-dashboard/instructor-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../instructor-profile/instructor-profile.html"
+                                    class="dropdown-item">Profile</a>
+                                <a href="../instructor-courses/instructor-courses.html" class="dropdown-item">My
+                                    Courses</a>
+                                <a href="../instructor-orders/instructor-orders.html" class="dropdown-item">Orders</a>
+                                <a href="../instructor-reviews/instructor-reviews.html"
+                                    class="dropdown-item">Reviews</a>
+                                <a href="../instructor-students/instructor-students.html"
+                                    class="dropdown-item">Students</a>
+                                <a href="../instructor-payout/instructor-payout.html" class="dropdown-item">Payouts</a>
+                                <a href="../instructor-earning/instructor-earning.html"
+                                    class="dropdown-item">Earning</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Students
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="students-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">STUDENTS</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Students dashboard to manage your courses and subscriptions.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Dashboard</a>
+                                <a href="../students-subscriptions/students-subscriptions.html"
+                                    class="dropdown-item">Subscriptions</a>
+                                <a href="../students-payment/students-payment.html" class="dropdown-item">Payments</a>
+                                <a href="../students-billing-info/students-billing-info.html"
+                                    class="dropdown-item">Billing Info</a>
+                                <a href="../students-invoice/students-invoice.html" class="dropdown-item">Invoice</a>
+                                <a href="../students-invoice-details/students-invoice-details.html"
+                                    class="dropdown-item">Invoice Details</a>
+                                <a href="../students-dashboard/students-dashboard.html"
+                                    class="dropdown-item">Bookmarked</a>
+                                <a href="../students-dashboard/students-dashboard.html" class="dropdown-item">My
+                                    Path</a>
+                            </div>
+                        </div>
+                        <div class="dropdown dropright mr-2">
+                            <a href="#" class="dropdown-item dropdown-link d-flex align-items-center">
+                                Admin
+                                <span class="text-muted ml-auto">
+                                    <i class="fa fa-angle-right"></i>
+                                </span>
+                            </a>
+                            <div id="admin-dropdown" class="dropdown-menu rounded shadow">
+                                <h6 class="dropdown-header text-dark fw-500">MASTER ADMIN</h6>
+                                <p class="dropdown-text text-muted m-0 p-0 py-1 px-4 fs-12">
+                                    Master admin dashboard to manage courses, user, site setting , and work with amazing
+                                    apps.
+                                </p>
+                                <div class="dropdown-divider"></div>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-primary m-2">Go to Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="../sign-in/sign-in.html" class="dropdown-item">Sign In</a>
+                        <a href="../sign-up/sign-up.html" class="dropdown-item">Sign Up</a>
+                        <a href="../forget-password/forget-password.html" class="dropdown-item">Forgot Password</a>
+                        <a href="../students-edit-profile/students-edit-profile.html" class="dropdown-item">Edit
+                            Profile</a>
+                        <a href="../students-security/students-security.html" class="dropdown-item">Security</a>
+                        <a href="../students-social-profiles/students-social-profiles.html" class="dropdown-item">Social
+                            Profiles</a>
+                        <a href="../students-notifications/students-notifications.html"
+                            class="dropdown-item">Notifications</a>
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="dropdown-item">Privacy Settings</a>
+                        <a href="../students-delete-profile/students-delete-profile.html" class="dropdown-item">Delete
+                            Profile</a>
+                        <a href="../students-linked-accounts/students-linked-accounts.html" class="dropdown-item">Linked
+                            Accounts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" id="ellipsis" class="nav-link d-flex align-items-center dropdown-link text-muted"><i
+                            class="fa fa-ellipsis-h font-weight-normal"></i>&nbsp;<i
+                            class="fa fa-angle-down ml-auto text-muted"></i></a>
+                    <div id="ellipsis-dropdown" class="dropdown-menu dropdown-main-menu rounded shadow">
+                        <a href="../terms-condition/terms-condition.html"
+                            class="dropdown-item d-flex align-items-center py-3">
+                            <i class="far fa-file-alt fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Documentations</h6>
+                                <p class="text-muted p-0 m-0">Browse the all documentation</p>
+                            </div>
+                        </a>
+                        <a href="#" class="dropdown-item d-flex align-items-center py-3">
+                            <i class="fas fa-code-branch fa-lg"></i>
+                            <div class="ml-3">
+                                <h6 class="fw-500 fs-14 p-0 m-0">Changelog <span class="text-primary">v2.2.0</span>
+                                </h6>
+                                <p class="text-muted p-0 m-0">See what's new</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item mt-3 mt-lg-0">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary px-3">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <input type="text" class="form-control border-primary" placeholder="Search Courses"
+                            style="height: 50px !important;">
+                    </div>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mt-3 mt-lg-0">
+                    <a href="../sign-in/sign-in.html" class="btn btn-light py-3 px-4 border shadow">Sign In</a>
+                    <a href="../sign-up/sign-up.html" class="btn btn-primary py-3 px-4 border shadow">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row align-items-top" style="padding: 100px 0 100px 0 !important;">
+                <div class="col-lg-7">
+                    <h1 class="text-light display-4">Become a Vanilla JavaScript Developer</h1>
+                    <p class="text-muted my-4 fs-20">In this tutorial, we are going to
+                        learn
+                        about JavaScript (Vanilla JS) - for
+                        building incredible, powerful JavaScript applications.</p>
+                    <p class="text-muted m-0 p-0">
+                        <i class="fas fa-clock" style="color: orange;"></i>&nbsp;4 Hours
+                    </p>
+                    <p class="text-muted m-0 p-0 my-2">
+                        <i class="fas fa-video" style="color: orange;"></i>&nbsp;12 Videos
+                    </p>
+                    <p class="text-muted m-0 p-0">
+                        <i class="fas fa-user-friends" style="color: orange;"></i>&nbsp;10,234+ Enrolled
+                    </p>
+                    <button class="btn btn-light rounded py-3 px-4 mt-4">Watch Preview</button>
+                </div>
+                <div class="col-lg-5">
+                    <div class="card rounded p-3">
+                        <div class="card-body">
+                            <h4 class="card-title text-dark text-left">Create Free Account</h4>
+                            <div class="d-block d-lg-flex my-3">
+                                <button class="btn btn-light btn-accounts border p-3 mr-lg-auto">
+                                    <i class="fab fa-google" style="color: #E53F3C;"></i><span
+                                        class="text-muted ml-2">Google</span>
+                                </button>
+                                <button class="btn btn-light btn-accounts border p-3 m-lg-auto my-2 my-lg-0">
+                                    <i class="fab fa-twitter" style="color: #29BAF9;"></i><span
+                                        class="text-muted ml-2">Twitter</span>
+                                </button>
+                                <button class="btn btn-light btn-accounts border p-3 ml-lg-auto">
+                                    <i class="fab fa-facebook text-primary"></i><span
+                                        class="text-muted ml-2">Facebook</span>
+                                </button>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <hr style="width: 40%;">
+                                <span class="text-muted" style="font-size: 12px;">OR</span>
+                                <hr style="width: 40%;">
+                            </div>
+                            <form action="" class="my-3">
+                                <input type="text" class="form-control p-4 mb-3" placeholder="Email" required>
+                                <input type="text" class="form-control p-4 mb-3" placeholder="Password" required>
+                                <button class="btn btn-primary d-block w-100 py-3">Start Courses for Free</button>
+                            </form>
+                        </div>
+                        <div class="card-footer border-top mb-0 pb-0" style="background-color: #fff;">
+                            <p class="text-muted fs-14 m-0 p-0 my-2">
+                                By continuing you accept the
+                                <a href="#" class="text-dark">Terms of Use</a>,
+                                <a href="#" class="text-dark">Privacy Policy</a>
+                                and
+                                <a href="#" class="text-dark">Data policy</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="border shadow py-4 mb-5" id="header-sub" style="background-color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 d-flex align-items-center mb-3 mb-lg-0 justify-content-start"
+                    id="header-sub-1">
+                    <i class="fa fa-check fa-xs rounded-circle p-1"
+                        style="background-color: #FFEEDA; color: #CB843A;"></i>
+                    <span class="fw-600 ml-2">Shareable Certificate</span>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-center mb-3 mb-lg-0 justify-content-center"
+                    id="header-sub-2">
+                    <i class="fa fa-check fa-xs rounded-circle p-1"
+                        style="background-color: #FFEEDA; color: #CB843A;"></i>
+                    <span class="fw-600 ml-2">Flexible Deadlines</span>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-center mb-3 mb-lg-0 justify-content-center"
+                    id="header-sub-3">
+                    <i class="fa fa-check fa-xs rounded-circle p-1"
+                        style="background-color: #FFEEDA; color: #CB843A;"></i>
+                    <span class="fw-600 ml-2">100% Online Courses</span>
+                </div>
+                <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-end" id="header-sub-4">
+                    <i class="fa fa-check fa-xs rounded-circle p-1"
+                        style="background-color: #FFEEDA; color: #CB843A;"></i>
+                    <span class="fw-600 ml-2">Approx.24 hours</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <main>
+        <div class="container">
+            <section class="my-5" id="course-description">
+                <h6 class="text-primary text-center fw-600 fs-14" style="letter-spacing: 3px;">COURSE DESCRIPTION</h6>
+                <h1 class="text-dark text-center">What will you learn</h1>
+                <p class="text-muted text-center fs-18">
+                    Vanilla JS is a fast, lightweight, cross-platform framework for building
+                    incredible,<br>powerful JavaScript applications.
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card rounded shadow py-4 px-2 my-2">
+                            <div class="card-header border-0" style="background-color: #fff !important;">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2">
+                                        <div class="card-description-img rounded-circle">
+                                            <img src="../../img/card-description/feature-icon-1.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 mt-4 mt-md-0">
+                                        <h4 class="text-dark m-0 p-0">
+                                            Introduction to JavaScript
+                                            <span class="badge badge-warning text-light">Free</span>
+                                        </h4>
+                                        <span class="text-dark mr-3 fs-12 fw-600">COURSES -
+                                            1</span>
+                                        <span class="text-muted mr-3 fs-12 fw-600">6
+                                            LESSONS</span>
+                                        <span class="text-muted fs-12 fw-600">1 HOUR 12
+                                            MIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-muted mb-4">
+                                    In et tempus dui, in porta dolor. Donec molestie a purus ut interdum. Donec quis
+                                    felis dignissim, luctus libero ornare.
+                                </p>
+                                <a href="#" class="card-link text-primary"
+                                    style="text-decoration: underline !important;" data-toggle="modal"
+                                    data-target="#modal-introduction-javascript">
+                                    View Chapter Details +
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="modal-introduction-javascript">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                            <div class="modal-content rounded">
+                                <div class="modal-header py-4">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-2">
+                                            <div class="card-description-img rounded-circle">
+                                                <img src="../../img/card-description/feature-icon-1.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 mt-4 mt-md-0">
+                                            <h4 class="modal-title text-dark m-0 p-0">
+                                                Introduction to JavaScript
+                                                <span class="badge badge-warning text-light">Free</span>
+                                            </h4>
+                                            <span class="text-dark mr-3 fs-12 fw-600">COURSES -
+                                                1</span>
+                                            <span class="text-muted mr-3 fs-12 fw-600">6
+                                                LESSONS</span>
+                                            <span class="text-muted fs-12 fw-600">1 HOUR 12
+                                                MIN</span>
+                                        </div>
+                                    </div>
+                                    <button class="close" data-dismiss="modal">
+                                        &times;
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5 class="modal-title text-dark fw-500">
+                                        In this course you’ll learn:
+                                    </h5>
+                                    <p class="text-muted my-2">
+                                        Vanilla JS is a fast, lightweight, cross-platform framework for building
+                                        incredible, powerful JavaScript applications.
+                                    </p>
+                                    <br>
+                                    <div class="d-flex py-2">
+                                        <a href="#"
+                                            class="d-flex align-items-center w-100 text-dark border-bottom py-2 fw-400">
+                                            <i class="fa fa-play fa-xs text-primary rounded-circle p-2"
+                                                style="background-color: #F5F4F8;"></i>
+                                            <span class="ml-2">Introduction</span>
+                                            <span class="ml-auto">1m 7s</span>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex py-2">
+                                        <a href="#"
+                                            class="d-flex align-items-center w-100 text-dark border-bottom py-2 fw-400">
+                                            <i class="fa fa-play fa-xs text-primary rounded-circle p-2"
+                                                style="background-color: #F5F4F8;"></i>
+                                            <span class="ml-2">Installing Development Software</span>
+                                            <span class="ml-auto">3m 11s</span>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex py-2">
+                                        <a href="#"
+                                            class="d-flex align-items-center w-100 text-dark border-bottom py-2 fw-400">
+                                            <i class="fa fa-play fa-xs text-primary rounded-circle p-2"
+                                                style="background-color: #F5F4F8;"></i>
+                                            <span class="ml-2">Hello World Project from Github</span>
+                                            <span class="ml-auto">2m 33s</span>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex py-2">
+                                        <a href="#" class="d-flex align-items-center w-100 text-dark py-2 fw-400">
+                                            <i class="fa fa-play fa-xs text-primary rounded-circle p-2"
+                                                style="background-color: #F5F4F8;"></i>
+                                            <span class="ml-2">Our Sample JavaScript Files</span>
+                                            <span class="ml-auto">22m 30s</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card rounded shadow py-4 px-2 my-2">
+                            <div class="card-header border-0" style="background-color: #fff !important;">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2">
+                                        <div class="card-description-img rounded-circle">
+                                            <img src="../../img/card-description/feature-icon-2.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 mt-4 mt-md-0">
+                                        <h4 class="text-dark m-0 p-0">
+                                            JavaScript Beginning
+                                        </h4>
+                                        <span class="text-dark mr-3 fs-12 fw-600">COURSES -
+                                            2</span>
+                                        <span class="text-muted mr-3 fs-12 fw-600">4
+                                            LESSONS</span>
+                                        <span class="text-muted fs-12 fw-600">32 MIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-muted mb-4" style="font-size: 16px !important;">
+                                    Malesuada fames ac turpis egesta mpor tempus tincidunt. Aliquam congue lacus ac
+                                    tellus consectetur malesuada.
+                                </p>
+                                <a href="#" class="card-link text-primary"
+                                    style="text-decoration: underline !important;" data-toggle="modal"
+                                    data-target="#modal-introduction-javascript">
+                                    View Chapter Details +
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card rounded shadow py-4 px-2 my-2">
+                            <div class="card-header border-0" style="background-color: #fff !important;">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2">
+                                        <div class="card-description-img rounded-circle">
+                                            <img src="../../img/card-description/feature-icon-3.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 mt-4 mt-md-0">
+                                        <h4 class="text-dark m-0 p-0">
+                                            Variables and Constants
+                                        </h4>
+                                        <span class="text-dark mr-3 fs-12 fw-600">COURSES -
+                                            3</span>
+                                        <span class="text-muted mr-3 fs-12 fw-600">8
+                                            LESSONS</span>
+                                        <span class="text-muted fs-12 fw-600">10 MIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-muted mb-4">
+                                    Aliquam pulvinar eros a dictur vitae diam imperdiet, ornare turpis vequet elit nec,
+                                    imperdiet lectuna liquam qs.
+                                </p>
+                                <a href="#" class="card-link text-primary"
+                                    style="text-decoration: underline !important;" data-toggle="modal"
+                                    data-target="#modal-introduction-javascript">
+                                    View Chapter Details +
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card rounded shadow py-4 px-2 my-2">
+                            <div class="card-header border-0" style="background-color: #fff !important;">
+                                <div class="row align-items-center">
+                                    <div class="col-md-2">
+                                        <div class="card-description-img rounded-circle">
+                                            <img src="../../img/card-description/feature-icon-4.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 mt-4 mt-md-0">
+                                        <h4 class="text-dark m-0 p-0">
+                                            Types and Operators
+                                        </h4>
+                                        <span class="text-dark mr-3 fs-12 fw-600">COURSES -
+                                            4</span>
+                                        <span class="text-muted mr-3 fs-12 fw-600">10
+                                            LESSONS</span>
+                                        <span class="text-muted fs-12 fw-600">32 MIN</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-muted mb-4">
+                                    In lobortis quam eu augue spendisse imperdiet nec orci ipsum, tempus pharetra
+                                    posuere imperdiet, lacinia a nisl.
+                                </p>
+                                <a href="#" class="card-link text-primary"
+                                    style="text-decoration: underline !important;" data-toggle="modal"
+                                    data-target="#modal-introduction-javascript">
+                                    View Chapter Details +
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <br>
+
+        <section class="my-5 p-5" id="your-instructor" style="background-color: #fff;">
+            <div class="container">
+                <div class="row p-5 align-items-center" id="row-your-instructor">
+                    <div class="col-lg-6">
+                        <h6 class="text-primary mb-4 fs-14 fw-600" style="letter-spacing: 3px;">YOUR INSTRUCTOR</h6>
+                        <h1 class="text-dark">
+                            Hi, I'm <span class="text-primary">James Davies</span>, I will be taking you through lessons
+                        </h1>
+                        <p class="text-muted my-4 fs-20">
+                            Create beautiful website with this Geeks UI template. Get started building a site today.
+                        </p>
+                        <hr>
+                        <div class="d-flex">`
+                            <span class="mr-auto">
+                                <p class="h2 m-0 p-0 fw-700">45</p>
+                                <p class="m-0 p-0 text-muted">Lessons</p>
+                            </span>
+                            <span class="m-auto">
+                                <p class="h2 m-0 p-0 fw-700">10,500+</p>
+                                <p class="m-0 p-0 text-muted">Students</p>
+                            </span>
+                            <span class="ml-auto">
+                                <p class="h2 m-0 p-0 fw-700">12+</p>
+                                <p class="m-0 p-0 text-muted">Learning Hours</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center" id="your-instrcutor-img">
+                        <img src="../../img/your-instructor/instructor-img.png" alt="">
+                    </div>
+                </div>
+
+                <br>
+
+                <h6 class="text-primary text-center my-5 fw-600 fs-14" style="letter-spacing: 3px;">TRUSTED BY TOP-TIER
+                    PRODUCT
+                    COMPANIES</h6>
+
+                <div class="row justify-content-center my-5">
+                    <div class="col-6 col-md-4 col-xl-2 text-center p-3">
+                        <img src="../../img/featured-in/gray-logo-stripe.svg" alt="">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 text-center p-3">
+                        <img src="../../img/featured-in/gray-logo-airbnb.svg" alt="">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 text-center p-3">
+                        <img src="../../img/featured-in/gray-logo-discord.svg" alt="">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 text-center p-3">
+                        <img src="../../img/featured-in/gray-logo-intercom.svg" alt="">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 text-center p-3">
+                        <img src="../../img/featured-in/gray-logo-pinterest.svg" alt="">
+                    </div>
+                    <div class="col-6 col-md-4 col-xl-2 text-center p-3">
+                        <img src="../../img/featured-in/gray-logo-netflix.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <div class="container">
+            <section class="my-5" id="testimonials">
+                <h6 class="text-primary text-center fw-600 fs-14" style="letter-spacing: 3px;">TESTIMONIALS</h6>
+                <h1 class="text-dark text-center">What our learners are saying</h1>
+                <p class="text-muted text-center fs-18">
+                    12+ million people are already learning on Geeks</p>
+
+                <div class="row my-5">
+                    <div class="col-md-6">
+                        <div class="card rounded shadow my-lg-5">
+                            <div class="card-body p-5">
+                                <i class="fas fa-quote-left text-primary d-block text-center fa-2x"
+                                    style="opacity: 0.2;"></i>
+                                <p class="text-center text-dark my-5 fs-20">
+                                    The generated lorem Ipsum is therefore always free from repetition, injected humour,
+                                    or words etc generate lorem Ipsum which looks racteristic reasonable.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center bg-primary py-3">
+                                <img src="../../img/users/avatar-1.jpg" class="rounded-circle" width="75" alt="">
+                                <br>
+                                <h5 class="text-light m-0 p-0 mt-2 fw-600">Gladys Colbert</h5>
+                                <p class="text-light m-0 p-0 mb-1" style="opacity: 0.5;">Software Engineer at Palansite
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card rounded shadow my-3 my-lg-5">
+                            <div class="card-body p-5">
+                                <i class="fas fa-quote-left text-secondary d-block text-center fa-2x"
+                                    style="opacity: 0.2;"></i>
+                                <p class="text-center text-dark my-5 fs-20">
+                                    Lorem ipsum dolor sit amet, consectetur adipi scing elit. Sed vel felis imperdiet,
+                                    lacinia metus malesuada diamamus rutrum turpis leo, id tincidunt magna sodales.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center bg-secondary py-3">
+                                <img src="../../img/users/avatar-2.jpg" class="rounded-circle" width="75" alt="">
+                                <br>
+                                <h5 class="text-light m-0 p-0 mt-2 fw-600">Ella Jones</h5>
+                                <p class="text-light m-0 p-0 mb-1" style="opacity: 0.5;">Software Engineer at Classrom
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <br>
+
+        <section class="mt-5" id="need-to-know" style="background-color: #fff;">
+            <div class="container py-5">
+                <div class="row my-5">
+                    <div class="col-lg-7 m-auto text-center">
+                        <h6 class="text-primary fw-600 fs-14" style="letter-spacing: 3px;">NEED TO KNOW</h6>
+                        <h1 class="text-dark my-4">Frequently Asked Questions.</h1>
+                        <p class="text-muted fs-18">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis non accumsan in, tempor
+                            dictum neque.
+                        </p>
+
+                        <br>
+
+                        <div class="my-5" id="accordion">
+                            <a href="#online-course" class="text-dark d-flex align-items-center fw-700 fs-20"
+                                id="online-course-button" data-toggle="collapse">
+                                What is the cost of an online course?
+                                <span class="ml-auto">
+                                    <i class="fa fa-plus fa-xs"></i>
+                                </span>
+                            </a>
+                            <hr>
+                            <div class="collapse" id="online-course" data-parent="#accordion">
+                                <p class="text-muted text-left">
+                                    Create beautiful website with this Geeks UI template. Get started building a site
+                                    today.
+                                </p>
+                            </div>
+
+                            <a href="#a-course" class="text-dark d-flex align-items-center fs-20 fw-700"
+                                data-toggle="collapse">
+                                What do I need to take a course?
+                                <span class="ml-auto">
+                                    <i class="fa fa-plus fa-xs"></i>
+                                </span>
+                            </a>
+                            <hr>
+                            <div class="collapse" id="a-course" data-parent="#accordion">
+                                <p class="text-muted text-left">
+                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                    probably haven't heard of them accusamus labore sustainable VHS.
+                                </p>
+                            </div>
+
+                            <a href="#this-course" class="text-dark d-flex align-items-center fs-20 fw-700"
+                                data-toggle="collapse">
+                                What do I receive for taking this course?
+                                <span class="ml-auto">
+                                    <i class="fa fa-plus fa-xs"></i>
+                                </span>
+                            </a>
+                            <hr>
+                            <div class="collapse" id="this-course" data-parent="#accordion">
+                                <p class="text-muted text-left" style="font-size: 16px !important;">
+                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                    probably haven't heard of them accusamus labore sustainable VHS.
+                                </p>
+                            </div>
+
+                            <a href="#certificate" class="text-dark d-flex align-items-center fs-20 fw-700"
+                                data-toggle="collapse">
+                                What will get if I subscribe to this Certificate
+                                <span class="ml-auto">
+                                    <i class="fa fa-plus fa-xs"></i>
+                                </span>
+                            </a>
+                            <hr>
+                            <div class="collapse" id="certificate" data-parent="#accordion">
+                                <p class="text-muted text-left">
+                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                    probably haven't heard of them accusamus labore sustainable VHS.
+                                </p>
+                            </div>
+
+                            <button class="btn btn-light text-muted rounded border shadow my-5 py-3">
+                                More question? Visit the <span class="text-primary">Learner Help Center.</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <h1 class="text-light m-0 p-0 fw-600">Join more than 1 million learners worldwide</h1>
+                        <p class="text-light m-0 p-0 my-3 mb-5 fs-18">
+                            Effective learning starts with assessment. Learning a new skill is hard work—Signal makes it
+                            easier.
+                        </p>
+                        <a href="../sign-up/sign-up.html" class="btn btn-primary py-3 px-4">Start Learning for Free</a>
+                        <a href="../sign-up/sign-up.html" class="btn btn-secondary py-3 px-4 my-2 my-lg-0">Geeks for
+                            Business</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <div class="container">
+            <section class="my-5" id="community">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <img src="https://codescandy.com/geeks-bootstrap-5/assets/images/brand/logo/logo.svg" alt="">
+                        <p class="text-muted m-0 p-0 my-4 fs-14">
+                            Geek is feature-rich components and beautifully Bootstrap UIKit for developers, built with
+                            bootstrap responsive framework.
+                        </p>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#" class="text-muted">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a href="#" class="text-muted">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="text-muted">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 ml-auto mt-5 mt-lg-0">
+                        <h5 class="text-dark">Company</h5>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1 mt-3">About</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Pricing</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Blog</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Careers</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Contact</a>
+                    </div>
+                    <div class="col-6 col-lg-2 mt-5 mt-lg-0">
+                        <h5 class="text-dark">Support</h5>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1 mt-3">Help and Support</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Become Instructor</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Get the app</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">FAQ's</a>
+                        <a href="#" class="nav-link text-muted m-0 p-0 py-1">Tutorial</a>
+                    </div>
+                    <div class="col-lg-3 mt-5 mt-lg-0">
+                        <h5 class="text-dark">Get in touch</h5>
+                        <p class="text-muted m-0 p-0 mt-3 fs-14">339 McDermott Points Hettingerhaven, NV 15283</p>
+                        <br>
+                        <span class="text-muted fs-14">
+                            Email:
+                            <a href="#"
+                                class="nav-link text-primary d-inline font-weight-normal m-0 p-0">support@geeksui.com</a>
+                        </span>
+                        <br>
+                        <span class="text-muted fs-14">
+                            Phone: <span class="text-dark fw-600">(000) 123 456 789</span>
+                        </span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <br>
+
+    <footer>
+        <div class="container">
+            <div class="row align-items-center border-top py-1">
+                <div class="col-lg-6">
+                    <span class="text-muted fs-14">
+                        © 2021 hsyntes. All Rights Reserved.
+                    </span>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="nav nav-footer justify-content-end">
+                        <a href="../students-profile-privacy/students-profile-privacy.html"
+                            class="nav-link text-muted fw-400">Privacy</a>
+                        <a href="../terms-condition/terms-condition.html" class="nav-link text-muted fw-400">Terms</a>
+                        <a href="#" class="nav-link text-muted fw-400">Feedback</a>
+                        <a href="#" class="nav-link text-muted fw-400">Support</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="../../JS/index/script.js"></script>
+    <script src="../../JS/lead-course/lead-course.js"></script>
+</body>
+
+</html>

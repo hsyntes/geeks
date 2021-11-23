@@ -1,0 +1,56 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-primary-lighter: #e3dcfe;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+body {
+    background-color: #fff !important;
+}
+
+#analytics {
+    background: linear-gradient(90deg, rgba(250, 90, 112, 1) 0%, rgba(72, 80, 253, 1) 100%) !important;
+    overflow: visible !important;
+    position: relative !important;
+    img {
+        position: absolute !important;
+        transform: scale(0.9) !important;
+    }
+}
+
+// @media (min-width: 540px) {
+//     #analytics {
+//         height: 280px !important;
+//     }
+// }
+
+@media (max-width: 768px) {
+    #analytics {
+        height: 280px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    #analytics {
+        height: 260px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #analytics {
+        height: 400px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #analytics {
+        height: 540px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #analytics {
+        margin: 100px !important;
+    }
+}

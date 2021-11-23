@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,eAAe;CACpC",
+    "sources": [
+        "opening.scss"
+    ],
+    "names": [],
+    "file": "opening.css"
+}

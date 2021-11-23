@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAOA,AAAA,MAAM,CAAC;EACH,gBAAgB,EARJ,OAAO,CAQc,UAAU;CAC9C",
+    "sources": [
+        "course-checkout.scss"
+    ],
+    "names": [],
+    "file": "course-checkout.css"
+}

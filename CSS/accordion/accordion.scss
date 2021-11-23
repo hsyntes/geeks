@@ -1,0 +1,19 @@
+$color-primary: #754ffe;
+$color-primary-darker: #6343d8;
+$color-secondary: #29baf9;
+$color-secondary-darker: #239ed4;
+$color-dark: #18113c;
+
+#accordion {
+    a {
+        &:focus,
+        &:active {
+            color: $color-primary !important;
+        }
+    }
+    button {
+        &:hover {
+            border: 1px solid rgba($color: #000, $alpha: 0.25) !important;
+        }
+    }
+}
