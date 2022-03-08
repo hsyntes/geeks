@@ -6,123 +6,123 @@ $color-secondary-darker: #239ed4;
 $color-dark: #18113c;
 
 .navbar {
-    background-color: #fff !important;
+  background-color: #fff !important;
 }
 
 nav {
-    .btn-bar {
-        &:focus,
-        &:active {
-            background-color: $color-primary !important;
-            color: #fff !important;
-        }
+  .btn-bar {
+    &:focus,
+    &:active {
+      background-color: $color-primary !important;
+      color: #fff !important;
     }
-    .btn-bell {
-        &:focus,
-        &:active {
-            background-color: $color-primary !important;
-            color: #fff !important;
-        }
+  }
+  .btn-bell {
+    &:focus,
+    &:active {
+      background-color: $color-primary !important;
+      color: #fff !important;
     }
-    // .navbar-collapse {
-    //     .nav-link {
-    //         transition: all 0.2s ease-out !important;
-    //         &:hover {
-    //             color: $color-primary !important;
-    //         }
-    //     }
-    // }
-    .dropdown-menu {
-        border: none !important;
-        animation: dropdown-menu 0.2s ease-out !important;
-        .dropdown-header {
-            font-size: 12px !important;
-        }
-        .dropdown-bell-body {
-            height: 350px;
-            overflow: scroll;
-            overflow-x: hidden;
-            a {
-                text-decoration: none !important;
-                background-color: #f5f4f8 !important;
-                transition: all 0.2s ease-out !important;
-                &:hover {
-                    background-color: #e6e6e9 !important;
-                }
-                .fa-times {
-                    transition: all 0.2s ease-out;
-                    &:hover {
-                        color: red !important;
-                    }
-                }
-                p {
-                    font-weight: normal !important;
-                }
-            }
-        }
+  }
+  // .navbar-collapse {
+  //     .nav-link {
+  //         transition: all 0.2s ease-out !important;
+  //         &:hover {
+  //             color: $color-primary !important;
+  //         }
+  //     }
+  // }
+  .dropdown-menu {
+    border: none !important;
+    animation: dropdown-menu 0.2s ease-out !important;
+    .dropdown-header {
+      font-size: 12px !important;
     }
-    .btn-user {
-        position: relative;
-        display: block;
-        cursor: pointer;
-        i {
-            position: absolute;
-            bottom: 0;
-            right: 0;
+    .dropdown-bell-body {
+      height: 350px;
+      overflow: scroll;
+      overflow-x: hidden;
+      a {
+        text-decoration: none !important;
+        background-color: #f5f4f8 !important;
+        transition: all 0.2s ease-out !important;
+        &:hover {
+          background-color: #e6e6e9 !important;
         }
+        .fa-times {
+          transition: all 0.2s ease-out;
+          &:hover {
+            color: red !important;
+          }
+        }
+        p {
+          font-weight: normal !important;
+        }
+      }
     }
+  }
+  .btn-user {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    i {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
 }
 
 @media (min-width: 992px) {
-    nav {
-        .navbar-collapse {
-            .dropdown {
-                .dropdown-menu {
-                    margin-top: -5px !important;
-                }
-                &:hover .dropdown-main-menu {
-                    display: block !important;
-                    .dropdown {
-                        &:hover .dropdown-menu {
-                            display: block !important;
-                        }
-                    }
-                }
-            }
-            #instructor-dropdown,
-            #students-dropdown,
-            #admin-dropdown {
-                width: 175px !important;
-            }
+  nav {
+    .navbar-collapse {
+      .dropdown {
+        .dropdown-menu {
+          margin-top: -5px !important;
         }
+        &:hover .dropdown-main-menu {
+          display: block !important;
+          .dropdown {
+            &:hover .dropdown-menu {
+              display: block !important;
+            }
+          }
+        }
+      }
+      #instructor-dropdown,
+      #students-dropdown,
+      #admin-dropdown {
+        width: 175px !important;
+      }
     }
+  }
 }
 
 @media (max-width: 992px) {
-    nav {
-        .navbar-collapse {
-            .nav-link {
-                border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-            }
-            .navbar-nav {
-                align-items: stretch !important;
-                width: 100% !important;
-            }
-        }
-        ul#sign {
-            margin-top: 10px !important;
-        }
+  nav {
+    .navbar-collapse {
+      .nav-link {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+      }
+      .navbar-nav {
+        align-items: stretch !important;
+        width: 100% !important;
+      }
     }
-    .dropdown-bell-body {
-        height: 400px !important;
+    ul#sign {
+      margin-top: 10px !important;
     }
+  }
+  .dropdown-bell-body {
+    height: 400px !important;
+  }
 }
 
 @keyframes dropdown-menu {
-    0% {
-        transform: translateY(-5%);
-    }
-    100% {
-        transform: translateY(0%);
-    }
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
